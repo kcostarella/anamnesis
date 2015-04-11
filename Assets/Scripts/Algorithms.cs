@@ -5,8 +5,8 @@ public class Algorithms : MonoBehaviour {
 	static Vector2[] directions;
 	// Use this for initialization
 	void Awake () {
-		directions = new Vector2[8]{Vector2.up, Vector2.right, -Vector2.up, -Vector2.right, Vector2.up + Vector2.right,
-			Vector2.up - Vector2.right, -Vector2.up + Vector2.right, -Vector2.up - Vector2.right};
+		//directions = new Vector2[8]{Vector2.up, Vector2.right, -Vector2.up, -Vector2.right, Vector2.up + Vector2.right,
+			//Vector2.up - Vector2.right, -Vector2.up + Vector2.right, -Vector2.up - Vector2.right};
 	}
 	void Start () {
 	}
@@ -35,6 +35,12 @@ public class Algorithms : MonoBehaviour {
 		}
 		return (hitPackage);
 	}
+
+	public static Vector2 GetDirectionVector(Vector2 click, Vector2 origin) 
+	{
+		return (origin - click).normalized;
+	}
+
 	public class HitPackage
 	{
 		public Vector2 bestCoordinate{ get; set; }

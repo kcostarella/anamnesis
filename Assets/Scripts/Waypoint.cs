@@ -9,7 +9,7 @@ public class Waypoint : MonoBehaviour {
     private float rad = 0.25f;
     void Awake()
     {
-        pos = transform.localPosition;
+        
     }
 	// Use this for initialization
 	void Start () {
@@ -24,6 +24,7 @@ public class Waypoint : MonoBehaviour {
     void OnDrawGizmos()
     {
         Gizmos.color = Color.blue;
+		pos = transform.localPosition;
         Gizmos.DrawWireSphere(pos, rad);
         foreach(GameObject point in adjs) {
             Gizmos.DrawLine(pos, point.transform.position);
