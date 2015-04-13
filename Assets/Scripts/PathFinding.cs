@@ -46,8 +46,4 @@ public class PathFinding : MonoBehaviour {
 			moving = false;
 		}
 	}
-	
-	float ManhattanDistance(Vector2 v1, Vector2 v2) {
-		return Mathf.Abs(v1.x - v2.x) + Mathf.Abs (v1.y - v2.y);
-	}
 }

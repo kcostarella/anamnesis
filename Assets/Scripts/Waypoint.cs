@@ -5,11 +5,12 @@ using System.Collections.Generic;
 public class Waypoint : MonoBehaviour {
 
     public Vector3 pos;
-    public List<GameObject> adjs;
+    public Dictionary<GameObject, bool> adjs = new Dictionary<GameObject, bool>();
+
     private float rad = 0.25f;
     void Awake()
     {
-        
+
     }
 	// Use this for initialization
 	void Start () {
@@ -26,9 +27,13 @@ public class Waypoint : MonoBehaviour {
         Gizmos.color = Color.blue;
 		pos = transform.localPosition;
         Gizmos.DrawWireSphere(pos, rad);
-        foreach(GameObject point in adjs) {
-            Gizmos.DrawLine(pos, point.transform.position);
+
+        if (adjs.Keys.Count != 0)
+        {
+            foreach (GameObject point in adjs.Keys)
+            {
+                Gizmos.DrawLine(pos, point.transform.position);
+            }
         }
-        
     }
 }
