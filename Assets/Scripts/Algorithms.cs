@@ -2,17 +2,33 @@
 using System.Collections;
 
 public class Algorithms : MonoBehaviour {
-	static Vector2[] directions;
 	// Use this for initialization
+	enum compass {N,NE,E,SE,S,SW,W,NW};
+	static Vector2[] directions;
 	void Awake () {
-		//directions = new Vector2[8]{Vector2.up, Vector2.right, -Vector2.up, -Vector2.right, Vector2.up + Vector2.right,
-			//Vector2.up - Vector2.right, -Vector2.up + Vector2.right, -Vector2.up - Vector2.right};
+	
 	}
 	void Start () {
 	}
 	
 	// Update is called once per frame
 	void Update () {
+	}
+
+	
+	public class HitPackage
+	{
+		public Vector2 bestCoordinate{ get; set; }
+		public Collider2D collider{ get; set;}
+	}
+
+	public static Vector2 GetDirectionVector(Vector2 click, Vector2 origin) 
+	{
+		return (origin - click).normalized;
+	}
+	
+	public static float ManhattanDistance(Vector2 v1, Vector2 v2) {
+		return Mathf.Abs(v1.x - v2.x) + Mathf.Abs (v1.y - v2.y);
 	}
 
 	public static HitPackage GetClosestVector(Vector2 click)
@@ -36,18 +52,5 @@ public class Algorithms : MonoBehaviour {
 		return (hitPackage);
 	}
 
-	public static Vector2 GetDirectionVector(Vector2 click, Vector2 origin) 
-	{
-		return (origin - click).normalized;
-	}
 
-	public class HitPackage
-	{
-		public Vector2 bestCoordinate{ get; set; }
-		public Collider2D collider{ get; set;}
-	}
-
-	public static float ManhattanDistance(Vector2 v1, Vector2 v2) {
-		return Mathf.Abs(v1.x - v2.x) + Mathf.Abs (v1.y - v2.y);
-	}
 }

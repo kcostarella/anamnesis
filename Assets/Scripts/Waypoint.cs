@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class Waypoint : MonoBehaviour {
 
     public Vector3 pos;
-    public List<GameObject> adjs;
+    public List<Waypoint> adjs;
     private float rad = 0.25f;
     void Awake()
     {
@@ -26,9 +26,11 @@ public class Waypoint : MonoBehaviour {
         Gizmos.color = Color.blue;
 		pos = transform.localPosition;
         Gizmos.DrawWireSphere(pos, rad);
-        foreach(GameObject point in adjs) {
+        foreach(Waypoint point in adjs) {
             Gizmos.DrawLine(pos, point.transform.position);
+			if (!point.adjs.Contains(this)) {
+				point.adjs.Add(this);
+			}
         }
-        
     }
 }
