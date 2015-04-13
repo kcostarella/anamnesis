@@ -48,6 +48,4 @@ public class PathFinding : MonoBehaviour {
 			moving = false;
 		}
 	}
-
-
 }
