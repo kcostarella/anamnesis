@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Algorithms : MonoBehaviour {
+public class AlgorithmsTwo : MonoBehaviour {
 	// Use this for initialization
 	enum compass {N,NE,E,SE,S,SW,W,NW};
 	static Vector2[] directions;

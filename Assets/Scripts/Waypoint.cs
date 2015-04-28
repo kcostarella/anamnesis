@@ -26,11 +26,6 @@ public class Waypoint : MonoBehaviour {
         Gizmos.color = Color.blue;
 		pos = transform.localPosition;
         Gizmos.DrawWireSphere(pos, rad);
-        //foreach(Waypoint point in adjs) {
-          //  Gizmos.DrawLine(pos, point.transform.position);
-			//if (!point.adjs.Contains(this)) {
-			//	point.adjs.Add(this);
-			//}
 
         if (adjs.Keys.Count != 0)
         {
@@ -40,4 +35,8 @@ public class Waypoint : MonoBehaviour {
             }
         }
     }
+
+	public int Compare(Waypoint other) {
+		return 1;
+	}
 }

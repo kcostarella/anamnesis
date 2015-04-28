@@ -11,7 +11,7 @@ public class PathFinding : MonoBehaviour {
 	private Vector2 mousePosition;
 	private GameObject player;
 	private bool moving;
-	private Vector3 ScreenPosition;
+	private Vector3 WorldPosition;
 	private Vector3 dest;
 
 	// Use this for initialization
@@ -23,17 +23,24 @@ public class PathFinding : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetButtonDown ("Fire1")) {
-			ScreenPosition = Camera.main.ScreenToWorldPoint (Input.mousePosition);
-			ScreenPosition = new Vector3(ScreenPosition.x, ScreenPosition.y, 0.0f);
-			GameObject.Instantiate(waypointObject, ScreenPosition, Quaternion.identity);
+			WorldPosition = Camera.main.ScreenToWorldPoint (Input.mousePosition);
+			WorldPosition = new Vector3(WorldPosition.x,WorldPosition.y, 0.0f);
+			GameObject.Instantiate(waypointObject, WorldPosition, Quaternion.identity);
 
-			mousePosition = new Vector2 (ScreenPosition.x, ScreenPosition.y);
+
+			if (WorldPosition.x > player.transform.position.x) {
+				player.transform.eulerAngles = new Vector3 (0.0f,180.0f,0.0f);
+			} else {
+				player.transform.eulerAngles = new Vector3 (0.0f,0.0f,0.0f);
+
+				}
+			mousePosition = new Vector2 (WorldPosition.x, WorldPosition.y);
 			moving = true;
 		}
 
 		if (moving) {
 			step = speed * Time.deltaTime;
-			Vector3 stepDist3 = Vector3.MoveTowards(player.transform.position, ScreenPosition, step);
+			Vector3 stepDist3 = Vector3.MoveTowards(player.transform.position, WorldPosition, step);
 			stepDist = new Vector2(stepDist3.x, stepDist3.y);
 		}
 	}
@@ -41,7 +48,8 @@ public class PathFinding : MonoBehaviour {
 	void FixedUpdate () {
 
 		if (moving) {
-			player.GetComponent<Rigidbody2D>().MovePosition(stepDist);
+			//player.GetComponent<Rigidbody2D>().MovePosition(stepDist);
+			player.transform.position = new Vector3(stepDist.x, stepDist.y, 0.0f);
 		}
 
 		if (new Vector2 (player.transform.position.x, player.transform.position.y) == mousePosition && moving) {
