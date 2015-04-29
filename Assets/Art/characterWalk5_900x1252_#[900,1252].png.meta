@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: e09ac6073e10c47de8beebc75c4eacd8
+timeCreated: 1430282483
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: characterWalk5_900x1252_#[900,1252]_0
+    21300002: characterWalk5_900x1252_#[900,1252]_1
+    21300004: characterWalk5_900x1252_#[900,1252]_2
+    21300006: characterWalk5_900x1252_#[900,1252]_3
+    21300008: characterWalk5_900x1252_#[900,1252]_4
+    21300010: characterWalk5_900x1252_#[900,1252]_5
+    21300012: characterWalk5_900x1252_#[900,1252]_6
+    21300014: characterWalk5_900x1252_#[900,1252]_7
+    21300016: characterWalk5_900x1252_#[900,1252]_8
+    21300018: characterWalk5_900x1252_#[900,1252]_9
+    21300020: characterWalk5_900x1252_#[900,1252]_10
+    21300022: characterWalk5_900x1252_#[900,1252]_11
+    21300024: characterWalk5_900x1252_#[900,1252]_12
+    21300026: characterWalk5_900x1252_#[900,1252]_13
+    21300028: characterWalk5_900x1252_#[900,1252]_14
+    21300030: characterWalk5_900x1252_#[900,1252]_15
+    21300032: characterWalk5_900x1252_#[900,1252]_16
+    21300034: characterWalk5_900x1252_#[900,1252]_17
+    21300036: characterWalk5_900x1252_#[900,1252]_18
+    21300038: characterWalk5_900x1252_#[900,1252]_19
+    21300040: characterWalk5_900x1252_#[900,1252]_20
+    21300042: characterWalk5_900x1252_#[900,1252]_21
+    21300044: characterWalk5_900x1252_#[900,1252]_22
+    21300046: characterWalk5_900x1252_#[900,1252]_23
+    21300048: characterWalk5_900x1252_#[900,1252]_24
+    21300050: characterWalk5_900x1252_#[900,1252]_25
+    21300052: characterWalk5_900x1252_#[900,1252]_26
+    21300054: characterWalk5_900x1252_#[900,1252]_27
+    21300056: characterWalk5_900x1252_#[900,1252]_28
+    21300058: characterWalk5_900x1252_#[900,1252]_29
+    21300060: characterWalk5_900x1252_#[900,1252]_30
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: characterWalk5_900x1252_#[900,1252]_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 7529
+        width: 815
+        height: 1221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_1
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 7528
+        width: 809
+        height: 1218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_2
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 7527
+        width: 792
+        height: 1208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_3
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 7525
+        width: 777
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_4
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 7529
+        width: 768
+        height: 1175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 6279
+        width: 768
+        height: 1174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_6
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 6285
+        width: 766
+        height: 1177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_7
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 6294
+        width: 766
+        height: 1177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_8
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 6307
+        width: 769
+        height: 1176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_9
+      rect:
+        serializedVersion: 2
+        x: 3646
+        y: 6305
+        width: 772
+        height: 1176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_10
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 5038
+        width: 774
+        height: 1189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_11
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 5025
+        width: 774
+        height: 1196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_12
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 5017
+        width: 776
+        height: 1191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_13
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 5019
+        width: 776
+        height: 1191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_14
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 5023
+        width: 775
+        height: 1189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 3780
+        width: 772
+        height: 1185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_16
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 3790
+        width: 768
+        height: 1188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_17
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 3805
+        width: 766
+        height: 1173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_18
+      rect:
+        serializedVersion: 2
+        x: 2755
+        y: 3799
+        width: 764
+        height: 1172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_19
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 3784
+        width: 766
+        height: 1179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_20
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2522
+        width: 766
+        height: 1174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_21
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 2520
+        width: 816
+        height: 1176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_22
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 2517
+        width: 809
+        height: 1192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_23
+      rect:
+        serializedVersion: 2
+        x: 2736
+        y: 2519
+        width: 817
+        height: 1205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_24
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 2522
+        width: 825
+        height: 1217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1270
+        width: 833
+        height: 1219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_26
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1270
+        width: 831
+        height: 1219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_27
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 1270
+        width: 830
+        height: 1219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_28
+      rect:
+        serializedVersion: 2
+        x: 2744
+        y: 1270
+        width: 826
+        height: 1219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_29
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 1270
+        width: 821
+        height: 1219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterWalk5_900x1252_#[900,1252]_30
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 17
+        width: 817
+        height: 1221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

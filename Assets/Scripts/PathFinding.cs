@@ -13,11 +13,13 @@ public class PathFinding : MonoBehaviour {
 	private bool moving;
 	private Vector3 WorldPosition;
 	private Vector3 dest;
+	private PlayerController playerController;
 
 	// Use this for initialization
 	void Start () {
 		player = GameObject.FindGameObjectWithTag ("Player");
 		moving = false; 
+		playerController = player.GetComponent<PlayerController> ();
 	}
 	
 	// Update is called once per frame
@@ -29,13 +31,15 @@ public class PathFinding : MonoBehaviour {
 
 
 			if (WorldPosition.x > player.transform.position.x) {
-				player.transform.eulerAngles = new Vector3 (0.0f,180.0f,0.0f);
-			} else {
 				player.transform.eulerAngles = new Vector3 (0.0f,0.0f,0.0f);
+			} else {
+				player.transform.eulerAngles = new Vector3 (0.0f,180.0f,0.0f);
 
 				}
 			mousePosition = new Vector2 (WorldPosition.x, WorldPosition.y);
 			moving = true;
+			playerController.setAnimationBoolState("Moving",true);
+
 		}
 
 		if (moving) {
@@ -54,6 +58,7 @@ public class PathFinding : MonoBehaviour {
 
 		if (new Vector2 (player.transform.position.x, player.transform.position.y) == mousePosition && moving) {
 			moving = false;
+			playerController.setAnimationBoolState("Moving",false);
 		}
 	}
 }
