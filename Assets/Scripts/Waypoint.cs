@@ -6,11 +6,10 @@ public class Waypoint : MonoBehaviour {
     
     public Dictionary<GameObject, bool> adjs = new Dictionary<GameObject, bool>();
     private float rad = 0.25f;
-    public bool visited;
 
     void Awake()
     {
-        visited = false;
+
     }
 	// Use this for initialization
 	void Start () {

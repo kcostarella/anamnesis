@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class PathFinding : MonoBehaviour {
 	public float speed;
 	public Vector2 velocity;
-	public Waypoint waypointObject;
+	private Waypoint waypointObject;
 	public Vector3 awakePosition;
 	public Vector2 startPosition;
 	public GameObject player;
@@ -20,6 +20,11 @@ public class PathFinding : MonoBehaviour {
     private GameObject graphManagerObject;
     private GraphManager graphManager;
 	private bool start;
+
+    void Awake()
+    {
+        waypointObject = Resources.LoadAssetAtPath("Assets/Prefabs/Waypoint.prefab", typeof(GameObject)) as GameObject;
+    }
 
 	// Use this for initialization
 	void Awake() {
@@ -42,15 +47,23 @@ public class PathFinding : MonoBehaviour {
 		if (Input.GetButtonDown ("Fire1")) {
 			WorldPosition = Camera.main.ScreenToWorldPoint (Input.mousePosition);
 			WorldPosition = new Vector3(WorldPosition.x,WorldPosition.y, 0.0f);
-			GameObject.Instantiate(waypointObject, WorldPosition, Quaternion.identity);
+			
+            GameObject goal = Instantiate(waypointObject, WorldPosition, Quaternion.identity) as GameObject;
+            goal.name = "Goal";
+            graphManager.addNode(goal);
+            
 
+            GameObject start = Instantiate(waypointObject, (player.transform.position + new Vector3(.14f, -.51f)), Quaternion.identity) as GameObject;
+            graphManager.addNode(start);
+            start.name = "Start";
 
-			if (WorldPosition.x > player.transform.position.x) {
+            List<Waypoint> path = AStarPath(start.GetComponent<Waypoint>(), goal.GetComponent<Waypoint>());
+
+            if (WorldPosition.x > player.transform.position.x) {
 				player.transform.eulerAngles = new Vector3 (0.0f,0.0f,0.0f);
 			} else {
-				player.transform.eulerAngles = new Vector3 (0.0f,180.0f,0.0f);
-
-				}
+                player.transform.eulerAngles = new Vector3 (0.0f,180.0f,0.0f);
+			}
 			mousePosition = new Vector2 (WorldPosition.x, WorldPosition.y);
 			moving = true;
 
@@ -109,7 +122,7 @@ public class PathFinding : MonoBehaviour {
                 Waypoint next = nextObject.GetComponent<Waypoint>();
                 double newCost = costSoFar[curr];
 
-                if (costSoFar[next] == null || newCost < costSoFar[next])
+                if (!costSoFar.ContainsKey(next) || newCost < costSoFar[next])
                 {
                     costSoFar[next] = newCost;
                     frontier.Enqueue(next, (newCost + manhattanDistance(curr.transform.localPosition, next.transform.localPosition)));
