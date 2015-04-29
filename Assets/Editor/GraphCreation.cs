@@ -18,21 +18,26 @@ public class GraphCreation : Editor {
         if (graphing == true)
         {
             if (gm == null)
-            gm = GameObject.FindGameObjectWithTag("GraphManager");
-            Selection.activeObject = gm;
-            waypoints = gm.GetComponent<GraphManager>().waypoints;
+                gm = GameObject.FindGameObjectWithTag("GraphManager");
+            if (gm != null)
+            {
+                Selection.activeObject = gm;
+                //waypoints = gm.GetComponent<GraphManager>().waypoints;
+            }
         }
         Debug.Log("Graphing state: " + graphing);
     }
 
     [MenuItem("Graphing Tools/Clear Waypoints")]
-    private static void ClearWaypoints()
+    private void ClearWaypoints()
     {
-        foreach (GameObject g in waypoints)
+        GraphManager manager = (GraphManager)target;
+
+        foreach (GameObject g in manager.waypoints)
         {
             DestroyImmediate(g);
         }
-        waypoints.Clear();
+        gm.GetComponent<GraphManager>().waypoints.Clear();
     }
 
     [MenuItem("Graphing Tools/Connect Graph")]
@@ -42,6 +47,7 @@ public class GraphCreation : Editor {
     }
     void OnSceneGUI()
     {
+        GraphManager manager = (GraphManager)target;
         if (graphing)
         {
             if (Event.current.type == EventType.mouseDown)
@@ -53,12 +59,13 @@ public class GraphCreation : Editor {
                 {
                     GameObject waypoint = Resources.LoadAssetAtPath("Assets/Prefabs/Waypoint.prefab", typeof(GameObject)) as GameObject;
                     GameObject waypointInstance = Instantiate(waypoint) as GameObject;
+                    waypointInstance.name = "Waypoint" + (manager.waypoints.Count + 1);
                     waypointInstance.transform.position = ray.origin;
                     waypointInstance.transform.parent = gm.transform;
 
-                    waypoints.Add(waypointInstance);
+                    manager.waypoints.Add(waypointInstance);
 
-                    foreach (GameObject wp in waypoints)
+                    foreach (GameObject wp in manager.waypoints)
                     {
                         if (wp != waypointInstance)
                         {
@@ -76,4 +83,17 @@ public class GraphCreation : Editor {
             Selection.activeObject = gm;
         }
     }
+
+    public override void OnInspectorGUI()
+    {
+        GraphManager manager = (GraphManager)target;
+
+        EditorGUILayout.LabelField("Size", manager.waypoints.Count.ToString());
+
+        foreach (GameObject point in manager.waypoints)
+        {
+            EditorGUILayout.LabelField("Point", point.name);
+        }
+    }
+
 }
