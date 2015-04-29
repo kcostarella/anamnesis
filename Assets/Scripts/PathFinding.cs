@@ -6,27 +6,37 @@ public class PathFinding : MonoBehaviour {
 	public float speed;
 	public Vector2 velocity;
 	public Waypoint waypointObject;
+	public Vector3 awakePosition;
+	public Vector2 startPosition;
+	public GameObject player;
 
 	private float step;
 	private Vector2 stepDist;
 	private Vector2 mousePosition;
-	private GameObject player;
 	private bool moving;
 	private Vector3 WorldPosition;
 	private Vector3 dest;
 	private PlayerController playerController;
     private GameObject graphManagerObject;
     private GraphManager graphManager;
+	private bool start;
 
 	// Use this for initialization
-	void Start () {
-		player = GameObject.FindGameObjectWithTag ("Player");
-		moving = false; 
+	void Awake() {
 		playerController = player.GetComponent<PlayerController> ();
-        graphManagerObject = GameObject.FindGameObjectWithTag("GraphManager");
-        graphManager = graphManagerObject.GetComponent<GraphManager>();
+		graphManagerObject = GameObject.FindGameObjectWithTag("GraphManager");
+		graphManager = graphManagerObject.GetComponent<GraphManager>();
 	}
-	
+	void Start () {
+
+		WorldPosition = new Vector3 (startPosition.x, startPosition.y, 0.0f);
+		mousePosition = new Vector2 (WorldPosition.x, WorldPosition.y);
+		moving = true;
+		start = true;
+	}
+
+
+
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetButtonDown ("Fire1")) {
@@ -43,12 +53,15 @@ public class PathFinding : MonoBehaviour {
 				}
 			mousePosition = new Vector2 (WorldPosition.x, WorldPosition.y);
 			moving = true;
-			playerController.setAnimationBoolState("Moving",true);
 
 		}
 
 		if (moving) {
 			step = speed * Time.deltaTime;
+			if (start == true) {
+				player.transform.position = awakePosition;
+				start = false;
+			}
 			Vector3 stepDist3 = Vector3.MoveTowards(player.transform.position, WorldPosition, step);
 			stepDist = new Vector2(stepDist3.x, stepDist3.y);
 		}
@@ -59,6 +72,7 @@ public class PathFinding : MonoBehaviour {
 		if (moving) {
 			//player.GetComponent<Rigidbody2D>().MovePosition(stepDist);
 			player.transform.position = new Vector3(stepDist.x, stepDist.y, 0.0f);
+			playerController.setAnimationBoolState("Moving",true);
 		}
 
 		if (new Vector2 (player.transform.position.x, player.transform.position.y) == mousePosition && moving) {

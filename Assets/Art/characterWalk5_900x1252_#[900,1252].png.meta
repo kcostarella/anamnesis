@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e09ac6073e10c47de8beebc75c4eacd8
-timeCreated: 1430282483
+timeCreated: 1430331080
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -87,8 +87,8 @@ TextureImporter:
         y: 7529
         width: 815
         height: 1221
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_1
       rect:
@@ -97,8 +97,8 @@ TextureImporter:
         y: 7528
         width: 809
         height: 1218
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_2
       rect:
@@ -107,8 +107,8 @@ TextureImporter:
         y: 7527
         width: 792
         height: 1208
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_3
       rect:
@@ -117,8 +117,8 @@ TextureImporter:
         y: 7525
         width: 777
         height: 1195
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_4
       rect:
@@ -127,8 +127,8 @@ TextureImporter:
         y: 7529
         width: 768
         height: 1175
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_5
       rect:
@@ -137,8 +137,8 @@ TextureImporter:
         y: 6279
         width: 768
         height: 1174
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_6
       rect:
@@ -147,8 +147,8 @@ TextureImporter:
         y: 6285
         width: 766
         height: 1177
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_7
       rect:
@@ -157,8 +157,8 @@ TextureImporter:
         y: 6294
         width: 766
         height: 1177
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_8
       rect:
@@ -167,8 +167,8 @@ TextureImporter:
         y: 6307
         width: 769
         height: 1176
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_9
       rect:
@@ -177,8 +177,8 @@ TextureImporter:
         y: 6305
         width: 772
         height: 1176
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_10
       rect:
@@ -187,8 +187,8 @@ TextureImporter:
         y: 5038
         width: 774
         height: 1189
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_11
       rect:
@@ -197,8 +197,8 @@ TextureImporter:
         y: 5025
         width: 774
         height: 1196
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_12
       rect:
@@ -207,8 +207,8 @@ TextureImporter:
         y: 5017
         width: 776
         height: 1191
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_13
       rect:
@@ -217,8 +217,8 @@ TextureImporter:
         y: 5019
         width: 776
         height: 1191
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_14
       rect:
@@ -227,8 +227,8 @@ TextureImporter:
         y: 5023
         width: 775
         height: 1189
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_15
       rect:
@@ -237,8 +237,8 @@ TextureImporter:
         y: 3780
         width: 772
         height: 1185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_16
       rect:
@@ -247,8 +247,8 @@ TextureImporter:
         y: 3790
         width: 768
         height: 1188
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_17
       rect:
@@ -257,8 +257,8 @@ TextureImporter:
         y: 3805
         width: 766
         height: 1173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_18
       rect:
@@ -267,8 +267,8 @@ TextureImporter:
         y: 3799
         width: 764
         height: 1172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_19
       rect:
@@ -277,8 +277,8 @@ TextureImporter:
         y: 3784
         width: 766
         height: 1179
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_20
       rect:
@@ -287,8 +287,8 @@ TextureImporter:
         y: 2522
         width: 766
         height: 1174
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_21
       rect:
@@ -297,8 +297,8 @@ TextureImporter:
         y: 2520
         width: 816
         height: 1176
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_22
       rect:
@@ -307,8 +307,8 @@ TextureImporter:
         y: 2517
         width: 809
         height: 1192
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_23
       rect:
@@ -317,8 +317,8 @@ TextureImporter:
         y: 2519
         width: 817
         height: 1205
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_24
       rect:
@@ -327,8 +327,8 @@ TextureImporter:
         y: 2522
         width: 825
         height: 1217
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_25
       rect:
@@ -337,8 +337,8 @@ TextureImporter:
         y: 1270
         width: 833
         height: 1219
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_26
       rect:
@@ -347,8 +347,8 @@ TextureImporter:
         y: 1270
         width: 831
         height: 1219
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_27
       rect:
@@ -357,8 +357,8 @@ TextureImporter:
         y: 1270
         width: 830
         height: 1219
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_28
       rect:
@@ -367,8 +367,8 @@ TextureImporter:
         y: 1270
         width: 826
         height: 1219
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_29
       rect:
@@ -377,8 +377,8 @@ TextureImporter:
         y: 1270
         width: 821
         height: 1219
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_30
       rect:
@@ -387,8 +387,8 @@ TextureImporter:
         y: 17
         width: 817
         height: 1221
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
