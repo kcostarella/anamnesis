@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class PathFinding : MonoBehaviour {
 	public float speed;
 	public Vector2 velocity;
-	private Waypoint waypointObject;
+	public GameObject waypointObject;
 	public Vector3 awakePosition;
 	public Vector2 startPosition;
 	public GameObject player;
@@ -21,10 +21,6 @@ public class PathFinding : MonoBehaviour {
     private GraphManager graphManager;
 	private bool start;
 
-    void Awake()
-    {
-        waypointObject = Resources.LoadAssetAtPath("Assets/Prefabs/Waypoint.prefab", typeof(GameObject)) as GameObject;
-    }
 
 	// Use this for initialization
 	void Awake() {
@@ -47,15 +43,16 @@ public class PathFinding : MonoBehaviour {
 		if (Input.GetButtonDown ("Fire1")) {
 			WorldPosition = Camera.main.ScreenToWorldPoint (Input.mousePosition);
 			WorldPosition = new Vector3(WorldPosition.x,WorldPosition.y, 0.0f);
-			
+            Debug.Log(waypointObject);
+
             GameObject goal = Instantiate(waypointObject, WorldPosition, Quaternion.identity) as GameObject;
             goal.name = "Goal";
             graphManager.addNode(goal);
             
 
             GameObject start = Instantiate(waypointObject, (player.transform.position + new Vector3(.14f, -.51f)), Quaternion.identity) as GameObject;
-            graphManager.addNode(start);
             start.name = "Start";
+            graphManager.addNode(start);
 
             List<Waypoint> path = AStarPath(start.GetComponent<Waypoint>(), goal.GetComponent<Waypoint>());
 

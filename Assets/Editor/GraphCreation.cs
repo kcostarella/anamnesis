@@ -60,7 +60,7 @@ public class GraphCreation : Editor {
                     GameObject waypoint = Resources.LoadAssetAtPath("Assets/Prefabs/Waypoint.prefab", typeof(GameObject)) as GameObject;
                     GameObject waypointInstance = Instantiate(waypoint) as GameObject;
                     waypointInstance.name = "Waypoint" + (manager.waypoints.Count + 1);
-                    waypointInstance.transform.position = ray.origin;
+                    waypointInstance.transform.position = new Vector3(ray.origin.x, ray.origin.y);
                     waypointInstance.transform.parent = gm.transform;
 
                     manager.waypoints.Add(waypointInstance);
