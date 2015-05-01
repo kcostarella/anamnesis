@@ -41,7 +41,6 @@ GameObject:
   - 4: {fileID: 485156}
   - 212: {fileID: 21206110}
   - 114: {fileID: 11416890}
-  - 114: {fileID: 11437922}
   - 60: {fileID: 6042404}
   - 60: {fileID: 6066172}
   m_Layer: 0
@@ -173,7 +172,7 @@ PolygonCollider2D:
       - {x: 3.93227339, y: .204807281}
       - {x: 3.09110498, y: .127072573}
       - {x: 1.89256251, y: -.370355844}
-      - {x: .62681222, y: -1.02881408}
+      - {x: .338637382, y: -.932755709}
       - {x: 2.16150212, y: -1.28206599}
       - {x: 3.09655166, y: -1.87127984}
       - {x: 3.48423648, y: -3.42297649}
@@ -299,9 +298,9 @@ PolygonCollider2D:
       - {x: -4.010746, y: -.0824775696}
       - {x: -3.07476139, y: -.037961483}
       - {x: -2.09563065, y: -.0365915298}
-      - {x: -.434913039, y: -.157691956}
-      - {x: .775267243, y: -.0648374557}
-      - {x: 1.9988867, y: .153443336}
+      - {x: -.478701174, y: .0831418037}
+      - {x: .57822144, y: .19789052}
+      - {x: 1.80184078, y: .525641203}
       - {x: 2.85633183, y: .851094246}
       - {x: 3.97796202, y: 1.9809556}
       - {x: 4.05286503, y: 2.3171711}
@@ -327,21 +326,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   velocity: {x: 1, y: 1}
-  waypointObject: {fileID: 11445644, guid: 14fda665cc28ff34abac993d32b61e59, type: 2}
+  waypointObject: {fileID: 132030, guid: 14fda665cc28ff34abac993d32b61e59, type: 2}
   awakePosition: {x: -27, y: -17, z: 0}
   startPosition: {x: -20, y: -17}
   player: {fileID: 0}
---- !u!114 &11437922
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 169524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 209b703b9c7b846cdb803b49e980ece7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &21206110
 SpriteRenderer:
   m_ObjectHideFlags: 1
