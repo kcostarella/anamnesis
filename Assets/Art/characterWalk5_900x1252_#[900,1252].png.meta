@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e09ac6073e10c47de8beebc75c4eacd8
-timeCreated: 1430331080
+timeCreated: 1430339506
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -83,312 +83,312 @@ TextureImporter:
     - name: characterWalk5_900x1252_#[900,1252]_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 7529
-        width: 815
-        height: 1221
+        x: 0
+        y: 7512
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_1
       rect:
         serializedVersion: 2
-        x: 945
-        y: 7528
-        width: 809
-        height: 1218
+        x: 900
+        y: 7512
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_2
       rect:
         serializedVersion: 2
-        x: 1850
-        y: 7527
-        width: 792
-        height: 1208
+        x: 1800
+        y: 7512
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_3
       rect:
         serializedVersion: 2
-        x: 2753
-        y: 7525
-        width: 777
-        height: 1195
+        x: 2700
+        y: 7512
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_4
       rect:
         serializedVersion: 2
-        x: 3656
-        y: 7529
-        width: 768
-        height: 1175
+        x: 3600
+        y: 7512
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_5
       rect:
         serializedVersion: 2
-        x: 55
-        y: 6279
-        width: 768
-        height: 1174
+        x: 0
+        y: 6260
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_6
       rect:
         serializedVersion: 2
-        x: 953
-        y: 6285
-        width: 766
-        height: 1177
+        x: 900
+        y: 6260
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_7
       rect:
         serializedVersion: 2
-        x: 1852
-        y: 6294
-        width: 766
-        height: 1177
+        x: 1800
+        y: 6260
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_8
       rect:
         serializedVersion: 2
-        x: 2749
-        y: 6307
-        width: 769
-        height: 1176
+        x: 2700
+        y: 6260
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_9
       rect:
         serializedVersion: 2
-        x: 3646
-        y: 6305
-        width: 772
-        height: 1176
+        x: 3600
+        y: 6260
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_10
       rect:
         serializedVersion: 2
-        x: 44
-        y: 5038
-        width: 774
-        height: 1189
+        x: 0
+        y: 5008
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_11
       rect:
         serializedVersion: 2
-        x: 943
-        y: 5025
-        width: 774
-        height: 1196
+        x: 900
+        y: 5008
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_12
       rect:
         serializedVersion: 2
-        x: 1842
-        y: 5017
-        width: 776
-        height: 1191
+        x: 1800
+        y: 5008
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_13
       rect:
         serializedVersion: 2
-        x: 2742
-        y: 5019
-        width: 776
-        height: 1191
+        x: 2700
+        y: 5008
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_14
       rect:
         serializedVersion: 2
-        x: 3643
-        y: 5023
-        width: 775
-        height: 1189
+        x: 3600
+        y: 5008
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_15
       rect:
         serializedVersion: 2
-        x: 46
-        y: 3780
-        width: 772
-        height: 1185
+        x: 0
+        y: 3756
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_16
       rect:
         serializedVersion: 2
-        x: 949
-        y: 3790
-        width: 768
-        height: 1188
+        x: 900
+        y: 3756
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_17
       rect:
         serializedVersion: 2
-        x: 1852
-        y: 3805
-        width: 766
-        height: 1173
+        x: 1800
+        y: 3756
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_18
       rect:
         serializedVersion: 2
-        x: 2755
-        y: 3799
-        width: 764
-        height: 1172
+        x: 2700
+        y: 3756
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_19
       rect:
         serializedVersion: 2
-        x: 3656
-        y: 3784
-        width: 766
-        height: 1179
+        x: 3600
+        y: 3756
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_20
       rect:
         serializedVersion: 2
-        x: 57
-        y: 2522
-        width: 766
-        height: 1174
+        x: 0
+        y: 2504
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_21
       rect:
         serializedVersion: 2
-        x: 913
-        y: 2520
-        width: 816
-        height: 1176
+        x: 900
+        y: 2504
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_22
       rect:
         serializedVersion: 2
-        x: 1822
-        y: 2517
-        width: 809
-        height: 1192
+        x: 1800
+        y: 2504
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_23
       rect:
         serializedVersion: 2
-        x: 2736
-        y: 2519
-        width: 817
-        height: 1205
+        x: 2700
+        y: 2504
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_24
       rect:
         serializedVersion: 2
-        x: 3650
-        y: 2522
-        width: 825
-        height: 1217
+        x: 3600
+        y: 2504
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_25
       rect:
         serializedVersion: 2
-        x: 48
-        y: 1270
-        width: 833
-        height: 1219
+        x: 0
+        y: 1252
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_26
       rect:
         serializedVersion: 2
-        x: 948
-        y: 1270
-        width: 831
-        height: 1219
+        x: 900
+        y: 1252
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_27
       rect:
         serializedVersion: 2
-        x: 1846
-        y: 1270
-        width: 830
-        height: 1219
+        x: 1800
+        y: 1252
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_28
       rect:
         serializedVersion: 2
-        x: 2744
-        y: 1270
-        width: 826
-        height: 1219
+        x: 2700
+        y: 1252
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_29
       rect:
         serializedVersion: 2
-        x: 3644
-        y: 1270
-        width: 821
-        height: 1219
+        x: 3600
+        y: 1252
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: characterWalk5_900x1252_#[900,1252]_30
       rect:
         serializedVersion: 2
-        x: 44
-        y: 17
-        width: 817
-        height: 1221
+        x: 0
+        y: 0
+        width: 900
+        height: 1252
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

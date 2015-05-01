@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 56ae25476941b45c29eca545ca3cd90d
-timeCreated: 1430332922
+timeCreated: 1430339403
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -151,651 +151,651 @@ TextureImporter:
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_0
       rect:
         serializedVersion: 2
-        x: 90
-        y: 9603
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 0
+        y: 9600
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_1
       rect:
         serializedVersion: 2
-        x: 1155
-        y: 9603
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 1068
+        y: 9600
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_2
       rect:
         serializedVersion: 2
-        x: 2220
-        y: 9603
-        width: 796
-        height: 1192
-      alignment: 0
+        x: 2136
+        y: 9600
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_3
       rect:
         serializedVersion: 2
-        x: 3296
-        y: 9603
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 3204
+        y: 9600
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_4
       rect:
         serializedVersion: 2
-        x: 4362
-        y: 9603
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 4272
+        y: 9600
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_5
       rect:
         serializedVersion: 2
-        x: 5427
-        y: 9603
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 5340
+        y: 9600
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_6
       rect:
         serializedVersion: 2
-        x: 6492
-        y: 9603
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 6408
+        y: 9600
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_7
       rect:
         serializedVersion: 2
-        x: 7558
-        y: 9603
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 7476
+        y: 9600
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_8
       rect:
         serializedVersion: 2
-        x: 79
-        y: 8401
-        width: 791
-        height: 1191
-      alignment: 0
+        x: 0
+        y: 8400
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_9
       rect:
         serializedVersion: 2
-        x: 1144
-        y: 8401
-        width: 792
-        height: 1191
-      alignment: 0
+        x: 1068
+        y: 8400
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_10
       rect:
         serializedVersion: 2
-        x: 2210
-        y: 8401
-        width: 801
-        height: 1191
-      alignment: 0
+        x: 2136
+        y: 8400
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_11
       rect:
         serializedVersion: 2
-        x: 3276
-        y: 8401
-        width: 801
-        height: 1191
-      alignment: 0
+        x: 3204
+        y: 8400
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_12
       rect:
         serializedVersion: 2
-        x: 4351
-        y: 8401
-        width: 791
-        height: 1191
-      alignment: 0
+        x: 4272
+        y: 8400
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_13
       rect:
         serializedVersion: 2
-        x: 5416
-        y: 8401
-        width: 792
-        height: 1191
-      alignment: 0
+        x: 5340
+        y: 8400
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_14
       rect:
         serializedVersion: 2
-        x: 6482
-        y: 8401
-        width: 791
-        height: 1191
-      alignment: 0
+        x: 6408
+        y: 8400
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_15
       rect:
         serializedVersion: 2
-        x: 7547
-        y: 8401
-        width: 791
-        height: 1191
-      alignment: 0
+        x: 7476
+        y: 8400
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_16
       rect:
         serializedVersion: 2
-        x: 69
-        y: 7198
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 0
+        y: 7200
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_17
       rect:
         serializedVersion: 2
-        x: 1134
-        y: 7198
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 1068
+        y: 7200
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_18
       rect:
         serializedVersion: 2
-        x: 2199
-        y: 7198
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 2136
+        y: 7200
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_19
       rect:
         serializedVersion: 2
-        x: 3265
-        y: 7198
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 3204
+        y: 7200
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_20
       rect:
         serializedVersion: 2
-        x: 4330
-        y: 7198
-        width: 791
-        height: 1181
-      alignment: 0
+        x: 4272
+        y: 7200
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_21
       rect:
         serializedVersion: 2
-        x: 5395
-        y: 7198
-        width: 791
-        height: 1181
-      alignment: 0
+        x: 5340
+        y: 7200
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_22
       rect:
         serializedVersion: 2
-        x: 6461
-        y: 7198
-        width: 791
-        height: 1181
-      alignment: 0
+        x: 6408
+        y: 7200
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_23
       rect:
         serializedVersion: 2
-        x: 7526
-        y: 7198
-        width: 791
-        height: 1181
-      alignment: 0
+        x: 7476
+        y: 7200
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_24
       rect:
         serializedVersion: 2
-        x: 47
-        y: 6006
-        width: 792
-        height: 1180
-      alignment: 0
+        x: 0
+        y: 6000
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_25
       rect:
         serializedVersion: 2
-        x: 1113
-        y: 6006
-        width: 791
-        height: 1171
-      alignment: 0
+        x: 1068
+        y: 6000
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_26
       rect:
         serializedVersion: 2
-        x: 2178
-        y: 6006
-        width: 791
-        height: 1171
-      alignment: 0
+        x: 2136
+        y: 6000
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_27
       rect:
         serializedVersion: 2
-        x: 3254
-        y: 6006
-        width: 781
-        height: 1171
-      alignment: 0
+        x: 3204
+        y: 6000
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_28
       rect:
         serializedVersion: 2
-        x: 4319
-        y: 6006
-        width: 792
-        height: 1171
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 4272
+        y: 6000
+        width: 1068
+        height: 1200
+      alignment: 7
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_29
       rect:
         serializedVersion: 2
-        x: 5386
-        y: 6006
-        width: 792
-        height: 1171
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 5340
+        y: 6000
+        width: 1068
+        height: 1200
+      alignment: 7
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_30
       rect:
         serializedVersion: 2
-        x: 6450
-        y: 6006
-        width: 791
-        height: 1171
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 6408
+        y: 6000
+        width: 1068
+        height: 1200
+      alignment: 7
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_31
       rect:
         serializedVersion: 2
-        x: 7516
-        y: 6006
-        width: 791
-        height: 1171
-      alignment: 0
+        x: 7476
+        y: 6000
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_32
       rect:
         serializedVersion: 2
-        x: 37
-        y: 4804
-        width: 791
-        height: 1171
-      alignment: 0
+        x: 0
+        y: 4800
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_33
       rect:
         serializedVersion: 2
-        x: 1113
-        y: 4804
-        width: 789
-        height: 1171
-      alignment: 0
+        x: 1068
+        y: 4800
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_34
       rect:
         serializedVersion: 2
-        x: 2178
-        y: 4804
-        width: 791
-        height: 1171
-      alignment: 0
+        x: 2136
+        y: 4800
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_35
       rect:
         serializedVersion: 2
-        x: 3244
-        y: 4804
-        width: 791
-        height: 1171
-      alignment: 0
+        x: 3204
+        y: 4800
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_36
       rect:
         serializedVersion: 2
-        x: 4319
-        y: 4804
-        width: 791
-        height: 1181
-      alignment: 0
+        x: 4272
+        y: 4800
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_37
       rect:
         serializedVersion: 2
-        x: 5385
-        y: 4804
-        width: 791
-        height: 1181
-      alignment: 0
+        x: 5340
+        y: 4800
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_38
       rect:
         serializedVersion: 2
-        x: 6461
-        y: 4804
-        width: 791
-        height: 1181
-      alignment: 0
+        x: 6408
+        y: 4800
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_39
       rect:
         serializedVersion: 2
-        x: 7526
-        y: 4804
-        width: 791
-        height: 1181
-      alignment: 0
+        x: 7476
+        y: 4800
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_40
       rect:
         serializedVersion: 2
-        x: 57
-        y: 3605
-        width: 791
-        height: 1191
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 0
+        y: 3600
+        width: 1068
+        height: 1200
+      alignment: 7
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_41
       rect:
         serializedVersion: 2
-        x: 1134
-        y: 3602
-        width: 791
-        height: 1191
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 1068
+        y: 3600
+        width: 1068
+        height: 1200
+      alignment: 7
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_42
       rect:
         serializedVersion: 2
-        x: 2199
-        y: 3602
-        width: 791
-        height: 1191
-      alignment: 0
+        x: 2136
+        y: 3600
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_43
       rect:
         serializedVersion: 2
-        x: 3275
-        y: 3602
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 3204
+        y: 3600
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_44
       rect:
         serializedVersion: 2
-        x: 4351
-        y: 3602
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 4272
+        y: 3600
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_45
       rect:
         serializedVersion: 2
-        x: 5417
-        y: 3602
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 5340
+        y: 3600
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_46
       rect:
         serializedVersion: 2
-        x: 6492
-        y: 3602
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 6408
+        y: 3600
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_47
       rect:
         serializedVersion: 2
-        x: 7558
-        y: 3602
-        width: 801
-        height: 1192
-      alignment: 0
+        x: 7476
+        y: 3600
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_48
       rect:
         serializedVersion: 2
-        x: 90
-        y: 2399
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 0
+        y: 2400
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_49
       rect:
         serializedVersion: 2
-        x: 1155
-        y: 2399
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 1068
+        y: 2400
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_50
       rect:
         serializedVersion: 2
-        x: 2231
-        y: 2399
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 2136
+        y: 2400
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_51
       rect:
         serializedVersion: 2
-        x: 3297
-        y: 2399
-        width: 801
-        height: 1192
-      alignment: 0
+        x: 3204
+        y: 2400
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_52
       rect:
         serializedVersion: 2
-        x: 4383
-        y: 2399
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 4272
+        y: 2400
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_53
       rect:
         serializedVersion: 2
-        x: 5459
-        y: 2399
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 5340
+        y: 2400
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_54
       rect:
         serializedVersion: 2
-        x: 6545
-        y: 2399
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 6408
+        y: 2400
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_55
       rect:
         serializedVersion: 2
-        x: 7623
-        y: 2399
-        width: 789
-        height: 1192
-      alignment: 0
+        x: 7476
+        y: 2400
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_56
       rect:
         serializedVersion: 2
-        x: 164
-        y: 1197
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 0
+        y: 1200
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_57
       rect:
         serializedVersion: 2
-        x: 1251
-        y: 1197
-        width: 790
-        height: 1192
-      alignment: 0
+        x: 1068
+        y: 1200
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_58
       rect:
         serializedVersion: 2
-        x: 2337
-        y: 1197
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 2136
+        y: 1200
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_59
       rect:
         serializedVersion: 2
-        x: 3423
-        y: 1197
-        width: 791
-        height: 1192
-      alignment: 0
+        x: 3204
+        y: 1200
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_60
       rect:
         serializedVersion: 2
-        x: 4509
-        y: 1197
-        width: 781
-        height: 1192
-      alignment: 0
+        x: 4272
+        y: 1200
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_61
       rect:
         serializedVersion: 2
-        x: 5596
-        y: 1197
-        width: 780
-        height: 1181
-      alignment: 0
+        x: 5340
+        y: 1200
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_62
       rect:
         serializedVersion: 2
-        x: 6672
-        y: 1197
-        width: 780
-        height: 1181
-      alignment: 0
+        x: 6408
+        y: 1200
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_63
       rect:
         serializedVersion: 2
-        x: 7737
-        y: 1197
-        width: 785
-        height: 1181
-      alignment: 0
+        x: 7476
+        y: 1200
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_64
       rect:
         serializedVersion: 2
-        x: 269
-        y: 5
-        width: 781
-        height: 1171
-      alignment: 0
+        x: 0
+        y: 0
+        width: 1068
+        height: 1200
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
