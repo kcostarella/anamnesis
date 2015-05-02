@@ -6,6 +6,7 @@ TagManager:
   tags:
   - GraphManager
   - Waypoint
+  - StartWaypoint
   layers:
   - Default
   - TransparentFX

@@ -12,9 +12,13 @@ public class PathFinding : MonoBehaviour {
 
 	private float step;
 	private Vector2 stepDist;
-	private Vector2 mousePosition;
+	private Vector3 finalDestination;
 	private bool moving;
 	private Vector3 WorldPosition;
+	private Vector3 nextDestination;
+	private int pathLength;
+	private int currentWaypointCount;
+	private List<Waypoint> path;
 	private Vector3 dest;
 	private PlayerController playerController;
     private GameObject graphManagerObject;
@@ -30,10 +34,6 @@ public class PathFinding : MonoBehaviour {
 	}
 	void Start () {
 
-		WorldPosition = new Vector3 (startPosition.x, startPosition.y, 0.0f);
-		mousePosition = new Vector2 (WorldPosition.x, WorldPosition.y);
-		moving = true;
-		start = true;
 	}
 
 
@@ -42,52 +42,84 @@ public class PathFinding : MonoBehaviour {
 	void Update () {
 		if (Input.GetButtonDown ("Fire1")) {
 			WorldPosition = Camera.main.ScreenToWorldPoint (Input.mousePosition);
-			WorldPosition = new Vector3(WorldPosition.x,WorldPosition.y, 0.0f);
-            Debug.Log(waypointObject);
+			WorldPosition = new Vector3 (WorldPosition.x, WorldPosition.y, 0.0f);
+			Debug.Log (waypointObject);
+			print ("World Position: " + WorldPosition);
 
-            GameObject goal = Instantiate(waypointObject, WorldPosition, Quaternion.identity) as GameObject;
-            goal.name = "Goal";
-            graphManager.addNode(goal);
+			GameObject goal = Instantiate (waypointObject, WorldPosition, Quaternion.identity) as GameObject;
+			goal.name = "Goal";
+			graphManager.addNode (goal);
             
 
-            GameObject start = Instantiate(waypointObject, (player.transform.position + new Vector3(.14f, -.51f)), Quaternion.identity) as GameObject;
-            start.name = "Start";
-            graphManager.addNode(start);
+			GameObject start = Instantiate (waypointObject, (player.transform.position), Quaternion.identity) as GameObject; //+ new Vector3 (.14f, -.51f)
+			start.name = "Start";
+			graphManager.addNode (start);
 
-            List<Waypoint> path = AStarPath(start.GetComponent<Waypoint>(), goal.GetComponent<Waypoint>());
+			print ("Start Position:" + start.transform.position);
+			print ("Goal Position:" + goal.transform.position);
 
-            if (WorldPosition.x > player.transform.position.x) {
-				player.transform.eulerAngles = new Vector3 (0.0f,0.0f,0.0f);
-			} else {
-                player.transform.eulerAngles = new Vector3 (0.0f,180.0f,0.0f);
+			try {
+				path = AStarPath (start.GetComponent<Waypoint> (), goal.GetComponent<Waypoint> ());
+			} catch (KeyNotFoundException e) {
+				path = new List<Waypoint>();
+				print ("Got an Error!!!");
 			}
-			mousePosition = new Vector2 (WorldPosition.x, WorldPosition.y);
-			moving = true;
+
+			foreach (Waypoint way in path) {
+				print (way.transform.position);
+			}
+			pathLength = path.Count;
+			if (pathLength > 0) {
+				moving = true;
+				playerController.setAnimationBoolState("Moving",true);
+				pathLength = path.Count;
+				currentWaypointCount = 0;
+				nextDestination = new Vector3 (path[0].transform.position.x, path[0].transform.position.y, 0.0f);
+				finalDestination = new Vector3(path[pathLength - 1].transform.position.x, path[pathLength - 1].transform.position.y, 0.0f);
+			}
 
 		}
 
+
+		SetUpMovement ();
+	}
+
+	void SetUpMovement() {
 		if (moving) {
 			step = speed * Time.deltaTime;
-			if (start == true) {
-				player.transform.position = awakePosition;
-				start = false;
+			//if (start == true) {
+				//player.transform.position = awakePosition;
+				//start = false;
+			//}
+
+			if (nextDestination.x > player.transform.position.x) {
+				player.transform.eulerAngles = new Vector3 (0.0f,0.0f,0.0f);
+			} else {
+				player.transform.eulerAngles = new Vector3 (0.0f,180.0f,0.0f);
 			}
-			Vector3 stepDist3 = Vector3.MoveTowards(player.transform.position, WorldPosition, step);
+
+			Vector3 stepDist3 = Vector3.MoveTowards(player.transform.position, nextDestination, step);
 			stepDist = new Vector2(stepDist3.x, stepDist3.y);
 		}
 	}
-
+	
 	void FixedUpdate () {
 
 		if (moving) {
-			//player.GetComponent<Rigidbody2D>().MovePosition(stepDist);
 			player.transform.position = new Vector3(stepDist.x, stepDist.y, 0.0f);
-			playerController.setAnimationBoolState("Moving",true);
 		}
 
-		if (new Vector2 (player.transform.position.x, player.transform.position.y) == mousePosition && moving) {
+		if (new Vector2 (player.transform.position.x, player.transform.position.y) == new Vector2 (finalDestination.x, finalDestination.y)) {
 			moving = false;
 			playerController.setAnimationBoolState("Moving",false);
+
+
+
+		} else if (new Vector2 (player.transform.position.x, player.transform.position.y) == new Vector2 (nextDestination.x, nextDestination.y)) {
+			currentWaypointCount += 1;
+			if (currentWaypointCount < pathLength) {
+				nextDestination = new Vector3 (path[currentWaypointCount].transform.position.x, path[currentWaypointCount].transform.position.y, 0.0f);
+			}
 		}
 	}
 
