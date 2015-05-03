@@ -6,8 +6,10 @@ using System.Collections;
 public class GraphCreation : Editor {
 
     private static bool graphing = false;
+	private static bool eventType = false;
+	private static float cameraScale = 10;
+	private static int layer = 0;
     private static GameObject gm = null;
-    //public static ArrayList waypoints = new ArrayList();
     public static ArrayList waypoints;
 
     [MenuItem("Graphing Tools/Toggle Graphing %#g")]
@@ -29,9 +31,9 @@ public class GraphCreation : Editor {
     }
 
     [MenuItem("Graphing Tools/Clear Waypoints")]
-    private void ClearWaypoints()
+    private static void ClearWaypoints()
     {
-        GraphManager manager = (GraphManager)target;
+		GraphManager manager = GameObject.FindGameObjectWithTag ("GraphManager").GetComponent<GraphManager> ();
 
         foreach (GameObject g in manager.waypoints)
         {
@@ -40,11 +42,6 @@ public class GraphCreation : Editor {
         gm.GetComponent<GraphManager>().waypoints.Clear();
     }
 
-    [MenuItem("Graphing Tools/Connect Graph")]
-    private static void ConnectGraph()
-    {
-
-    }
     void OnSceneGUI()
     {
         GraphManager manager = (GraphManager)target;

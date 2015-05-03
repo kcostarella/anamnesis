@@ -6,6 +6,9 @@ public class Waypoint : MonoBehaviour {
     
     public Dictionary<GameObject, bool> adjs = new Dictionary<GameObject, bool>();
     private float rad = 0.25f;
+	public float cameraScale;
+	public GameObject eventTrigger;
+	public int layer;
 
     void Awake()
     {
@@ -19,6 +22,18 @@ public class Waypoint : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+	}
+
+	public void setCameraScale(float newScale) {
+		cameraScale = newScale;
+	}
+
+	public void setEventObject(GameObject o) {
+		eventTrigger = o;
+	}
+
+	public void setLayer(int l) {
+		layer = l;
 	}
 
     void OnDrawGizmos()

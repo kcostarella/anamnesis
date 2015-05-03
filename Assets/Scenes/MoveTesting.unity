@@ -126,6 +126,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &17172364
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,6 +168,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &19258428
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,6 +210,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1001 &27348666
 Prefab:
   m_ObjectHideFlags: 0
@@ -285,6 +294,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &38576081
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,6 +336,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &64584838
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,6 +378,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &68304237
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +420,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &82358080
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,6 +462,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &107405299
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,6 +504,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &118688041
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,6 +546,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &129216568
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,6 +588,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &163172040
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,6 +630,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &178853410
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,6 +672,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &237054439
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,6 +714,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1001 &284524070
 Prefab:
   m_ObjectHideFlags: 0
@@ -712,7 +754,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457138, guid: f7d02268da92a7c46b51f6138fdfb2a8, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 457138, guid: f7d02268da92a7c46b51f6138fdfb2a8, type: 2}
       propertyPath: m_LocalScale.x
@@ -760,6 +802,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &346942990
 GameObject:
   m_ObjectHideFlags: 0
@@ -799,6 +844,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &371470306
 GameObject:
   m_ObjectHideFlags: 0
@@ -838,6 +886,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &424869950
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,6 +928,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &426816791
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,6 +970,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &449855206
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,6 +1012,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &507145442
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,6 +1054,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &514500362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,6 +1096,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &566841829
 GameObject:
   m_ObjectHideFlags: 0
@@ -1060,6 +1126,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!4 &566841831
 Transform:
   m_ObjectHideFlags: 0
@@ -1111,6 +1180,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &569461054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,6 +1222,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &573430875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1189,6 +1264,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!4 &575170033 stripped
 Transform:
   m_PrefabParentObject: {fileID: 457138, guid: f7d02268da92a7c46b51f6138fdfb2a8, type: 2}
@@ -1278,6 +1356,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &612534537
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,6 +1398,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &630611186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1356,6 +1440,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &681989032
 GameObject:
   m_ObjectHideFlags: 0
@@ -1395,6 +1482,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &685267150
 GameObject:
   m_ObjectHideFlags: 0
@@ -1434,6 +1524,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1001 &700953886
 Prefab:
   m_ObjectHideFlags: 0
@@ -1515,6 +1608,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &813657366
 GameObject:
   m_ObjectHideFlags: 0
@@ -1554,6 +1650,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1001 &838492961
 Prefab:
   m_ObjectHideFlags: 0
@@ -2421,6 +2520,14 @@ Prefab:
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[205].y
       value: .617543459
       objectReference: {fileID: 0}
+    - target: {fileID: 494368, guid: 74e8b220f1a734437933021e3d60ac81, type: 2}
+      propertyPath: m_LocalScale.x
+      value: .150000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 494368, guid: 74e8b220f1a734437933021e3d60ac81, type: 2}
+      propertyPath: m_LocalScale.y
+      value: .150000006
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6006190, guid: 74e8b220f1a734437933021e3d60ac81, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 74e8b220f1a734437933021e3d60ac81, type: 2}
@@ -2464,6 +2571,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &860854330
 GameObject:
   m_ObjectHideFlags: 0
@@ -2503,6 +2613,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &894137632
 GameObject:
   m_ObjectHideFlags: 0
@@ -2542,6 +2655,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &907438029
 GameObject:
   m_ObjectHideFlags: 0
@@ -2581,6 +2697,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1001 &912462728
 Prefab:
   m_ObjectHideFlags: 0
@@ -2666,6 +2785,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1001 &956225895
 Prefab:
   m_ObjectHideFlags: 0
@@ -2713,6 +2835,10 @@ Prefab:
       propertyPath: speed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 21212390, guid: 745d8837658f24315893fd030e010d63, type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 745d8837658f24315893fd030e010d63, type: 2}
   m_IsPrefabParent: 0
@@ -2755,6 +2881,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1001 &1035655393
 Prefab:
   m_ObjectHideFlags: 0
@@ -2840,6 +2969,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1078231950
 GameObject:
   m_ObjectHideFlags: 0
@@ -2879,6 +3011,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1099129561
 GameObject:
   m_ObjectHideFlags: 0
@@ -2918,6 +3053,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1113918543
 GameObject:
   m_ObjectHideFlags: 0
@@ -2957,6 +3095,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1114955362
 GameObject:
   m_ObjectHideFlags: 0
@@ -2996,6 +3137,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1117969580
 GameObject:
   m_ObjectHideFlags: 0
@@ -3035,6 +3179,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1135869819
 GameObject:
   m_ObjectHideFlags: 0
@@ -3074,6 +3221,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1144828054
 GameObject:
   m_ObjectHideFlags: 0
@@ -3113,6 +3263,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1249089712
 GameObject:
   m_ObjectHideFlags: 0
@@ -3152,6 +3305,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1249750120
 GameObject:
   m_ObjectHideFlags: 0
@@ -3263,6 +3419,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1269234841
 GameObject:
   m_ObjectHideFlags: 0
@@ -3302,6 +3461,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1001 &1284880310
 Prefab:
   m_ObjectHideFlags: 0
@@ -3348,6 +3510,48 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 660a59fdd3a5d4cfc99d5173b4010e08, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1319299026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1319299027}
+  - 114: {fileID: 1319299028}
+  m_Layer: 0
+  m_Name: Waypoint2
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1319299027
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1319299026}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.99173141, y: -14.8954372, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 575170033}
+  m_RootOrder: 76
+--- !u!114 &1319299028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1319299026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1366988831
 GameObject:
   m_ObjectHideFlags: 0
@@ -3387,6 +3591,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1378174312
 GameObject:
   m_ObjectHideFlags: 0
@@ -3426,6 +3633,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1422114916
 GameObject:
   m_ObjectHideFlags: 0
@@ -3465,6 +3675,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
+--- !u!1 &1424047086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1424047087}
+  - 114: {fileID: 1424047088}
+  m_Layer: 0
+  m_Name: Waypoint3
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1424047087
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1424047086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.17230129, y: -16.338356, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 575170033}
+  m_RootOrder: 77
+--- !u!114 &1424047088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1424047086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1451182859 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 158594, guid: 74e8b220f1a734437933021e3d60ac81, type: 2}
@@ -3597,8 +3852,8 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
-    height: 1
+    width: 16
+    height: 9
   near clip plane: .300000012
   far clip plane: 1000
   field of view: 60
@@ -3682,6 +3937,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1528908183
 GameObject:
   m_ObjectHideFlags: 0
@@ -3721,6 +3979,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
+--- !u!1 &1533572064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1533572065}
+  - 114: {fileID: 1533572066}
+  m_Layer: 0
+  m_Name: Waypoint1
+  m_TagString: Waypoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1533572065
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533572064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.353216648, y: -15.6168976, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 575170033}
+  m_RootOrder: 75
+--- !u!114 &1533572066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533572064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1570770067
 GameObject:
   m_ObjectHideFlags: 0
@@ -3760,6 +4063,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1572557798
 GameObject:
   m_ObjectHideFlags: 0
@@ -3799,6 +4105,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1593007571
 GameObject:
   m_ObjectHideFlags: 0
@@ -3935,6 +4244,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1627828826
 GameObject:
   m_ObjectHideFlags: 0
@@ -3974,6 +4286,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1637511517
 GameObject:
   m_ObjectHideFlags: 0
@@ -4013,6 +4328,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1644530207
 GameObject:
   m_ObjectHideFlags: 0
@@ -4052,6 +4370,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1688575459
 GameObject:
   m_ObjectHideFlags: 0
@@ -4091,6 +4412,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1693974511
 GameObject:
   m_ObjectHideFlags: 0
@@ -4130,6 +4454,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1700602084
 GameObject:
   m_ObjectHideFlags: 0
@@ -4241,6 +4568,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1764318124
 GameObject:
   m_ObjectHideFlags: 0
@@ -4280,6 +4610,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1849527642
 GameObject:
   m_ObjectHideFlags: 0
@@ -4319,6 +4652,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1857061530
 GameObject:
   m_ObjectHideFlags: 0
@@ -4358,6 +4694,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1860573961
 GameObject:
   m_ObjectHideFlags: 0
@@ -4397,6 +4736,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1874179099
 GameObject:
   m_ObjectHideFlags: 0
@@ -4436,6 +4778,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1876680975
 GameObject:
   m_ObjectHideFlags: 0
@@ -4475,6 +4820,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1920554375
 GameObject:
   m_ObjectHideFlags: 0
@@ -4514,6 +4862,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &1959249892
 GameObject:
   m_ObjectHideFlags: 0
@@ -4553,6 +4904,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &2029428068
 GameObject:
   m_ObjectHideFlags: 0
@@ -4592,6 +4946,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &2061127498
 GameObject:
   m_ObjectHideFlags: 0
@@ -4631,6 +4988,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1 &2086567645
 GameObject:
   m_ObjectHideFlags: 0
@@ -4670,6 +5030,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba21ffc181457d4b948c07f3f27de6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraScale: 0
+  eventTrigger: {fileID: 0}
+  layer: 0
 --- !u!1001 &2111283254
 Prefab:
   m_ObjectHideFlags: 0
