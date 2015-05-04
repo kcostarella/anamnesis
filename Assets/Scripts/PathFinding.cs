@@ -55,19 +55,12 @@ public class PathFinding : MonoBehaviour {
 			start.name = "Start";
 			graphManager.addNode (start);
 
-			print ("Start Position:" + start.transform.position);
-			print ("Goal Position:" + goal.transform.position);
-
 			try {
 				path = AStarPath (start.GetComponent<Waypoint> (), goal.GetComponent<Waypoint> ());
 			} catch (KeyNotFoundException e) {
 				path = new List<Waypoint>();
-				print ("Got an Error!!!");
 			}
 
-			foreach (Waypoint way in path) {
-				print (way.transform.position);
-			}
 			pathLength = path.Count;
 			if (pathLength > 0) {
 				moving = true;
@@ -83,6 +76,8 @@ public class PathFinding : MonoBehaviour {
 
 		SetUpMovement ();
 	}
+
+
 
 	void SetUpMovement() {
 		if (moving) {

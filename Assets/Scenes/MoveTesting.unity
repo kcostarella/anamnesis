@@ -1662,11 +1662,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 494368, guid: 74e8b220f1a734437933021e3d60ac81, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.77999997
+      value: -24.6000004
       objectReference: {fileID: 0}
     - target: {fileID: 494368, guid: 74e8b220f1a734437933021e3d60ac81, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -4.30999994
+      value: -17.1000004
       objectReference: {fileID: 0}
     - target: {fileID: 494368, guid: 74e8b220f1a734437933021e3d60ac81, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2522,11 +2522,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 494368, guid: 74e8b220f1a734437933021e3d60ac81, type: 2}
       propertyPath: m_LocalScale.x
-      value: .150000006
+      value: .100000001
       objectReference: {fileID: 0}
     - target: {fileID: 494368, guid: 74e8b220f1a734437933021e3d60ac81, type: 2}
       propertyPath: m_LocalScale.y
-      value: .150000006
+      value: .100000001
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6006190, guid: 74e8b220f1a734437933021e3d60ac81, type: 2}
@@ -2838,6 +2838,18 @@ Prefab:
     - target: {fileID: 21212390, guid: 745d8837658f24315893fd030e010d63, type: 2}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21206110, guid: 745d8837658f24315893fd030e010d63, type: 2}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 176168, guid: 745d8837658f24315893fd030e010d63, type: 2}
+      propertyPath: m_Name
+      value: Mountains
+      objectReference: {fileID: 0}
+    - target: {fileID: 134144, guid: 745d8837658f24315893fd030e010d63, type: 2}
+      propertyPath: m_Name
+      value: Sky
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 745d8837658f24315893fd030e010d63, type: 2}
@@ -3852,8 +3864,8 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 16
-    height: 9
+    width: 1
+    height: 1
   near clip plane: .300000012
   far clip plane: 1000
   field of view: 60
@@ -3877,7 +3889,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1466952032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.3799992, y: -15.3400002, z: -10}
+  m_LocalPosition: {x: -3.0999999, y: 2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3894,10 +3906,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 1451182861}
-  xMin: -18.7000008
-  xMax: 18.7000008
-  yMin: -16.3999996
-  yMax: 18.7700005
 --- !u!1 &1467418851
 GameObject:
   m_ObjectHideFlags: 0
