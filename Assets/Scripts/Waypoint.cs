@@ -19,6 +19,9 @@ public class Waypoint : MonoBehaviour {
 		if (Mathf.Approximately(cameraScale, 0.0f)) {
 			cameraScale = 4.0f;
 		}
+		if (Mathf.Approximately (cameraScale, 10.0f)) {
+			cameraScale = 8.0f;
+		}
 	}
 	
 	// Update is called once per frame
