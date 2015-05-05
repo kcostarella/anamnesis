@@ -3,14 +3,24 @@ using System.Collections;
 
 public class playerTracker : MonoBehaviour {
 	public Transform playerTransform;
-	private const float mapx = 51f;
-	private const float mapy = 40.52f;
+	public float mapx;
+	public float mapy;
+
+	public PathFinding pathFinding;
 	private Camera cam;
+	private Vector3 scaleVelocity;
+	private float cameraScaleTime;
+	private Vector3 currentDestination;
+	private Vector3 newDestination;
 
 	// Use this for initialization
 	void Start () {
 		gameObject.transform.position = new Vector3 (playerTransform.position.x, playerTransform.position.y, gameObject.transform.position.z);
 		cam = gameObject.GetComponent<Camera> ();
+		pathFinding = GameObject.FindGameObjectWithTag ("Path").GetComponent<PathFinding> ();
+		cameraScaleTime = 0.50f;
+		scaleVelocity = new Vector3 (0.0f, 0.0f, 0.0f);
+		currentDestination = new Vector3 (Mathf.Infinity, Mathf.Infinity, 0.0f);
 	}
 	
 	// Update is called once per frame
@@ -21,10 +31,11 @@ public class playerTracker : MonoBehaviour {
 		float xMax = mapx / 2.0f - horzExtent;
 		float yMin = vertExtent - mapy / 2.0f;
 		float yMax = mapy / 2.0f - vertExtent;
-
-		gameObject.transform.position = new Vector3 (Mathf.Clamp(playerTransform.position.x,xMin, xMax), 
-		                                             Mathf.Clamp (playerTransform.position.y,yMin,yMax), 
-		                                             gameObject.transform.position.z);
-
+		Vector3 newDestination = pathFinding.getFinalDestination ();
+		if (newDestination != currentDestination) {
+			currentDestination = newDestination;
+		}
+		Vector3 step = Vector3.SmoothDamp (gameObject.transform.position, currentDestination, ref scaleVelocity, cameraScaleTime);
+		gameObject.transform.position = new Vector3 (Mathf.Clamp (step.x, xMin, xMax), Mathf.Clamp (step.y, yMin, yMax), gameObject.transform.position.z);
 	}
 }

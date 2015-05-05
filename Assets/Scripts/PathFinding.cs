@@ -23,7 +23,12 @@ public class PathFinding : MonoBehaviour {
 	private PlayerController playerController;
     private GameObject graphManagerObject;
     private GraphManager graphManager;
+	private Camera gameCam;
 	private bool start;
+
+	private float[] scaleCam;
+	public float cameraScaleTime;
+	public float scaleVelocity;
 
 
 	// Use this for initialization
@@ -31,9 +36,23 @@ public class PathFinding : MonoBehaviour {
 		playerController = player.GetComponent<PlayerController> ();
 		graphManagerObject = GameObject.FindGameObjectWithTag("GraphManager");
 		graphManager = graphManagerObject.GetComponent<GraphManager>();
+		gameCam = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Camera> ();
+		start = true;
+		scaleCam = new float[2];
+		scaleCam [0] = scaleCam [1] = gameCam.orthographicSize;
+
 	}
 	void Start () {
+		GameObject start = Instantiate (waypointObject, (player.transform.position), Quaternion.identity) as GameObject;
+		start.name = "Start";
+		graphManager.addNode (start);
 
+		Vector3 startWaypointPosition = GameObject.FindGameObjectWithTag ("StartWaypoint").transform.position;
+		GameObject goal = Instantiate (waypointObject, startWaypointPosition, Quaternion.identity) as GameObject;
+		goal.name = "Goal";
+		graphManager.addNode (goal);
+
+		generatePath (start, goal);
 	}
 
 
@@ -44,58 +63,86 @@ public class PathFinding : MonoBehaviour {
 			WorldPosition = Camera.main.ScreenToWorldPoint (Input.mousePosition);
 			WorldPosition = new Vector3 (WorldPosition.x, WorldPosition.y, 0.0f);
 			Debug.Log (waypointObject);
-			print ("World Position: " + WorldPosition);
-
+			
 			GameObject goal = Instantiate (waypointObject, WorldPosition, Quaternion.identity) as GameObject;
 			goal.name = "Goal";
 			graphManager.addNode (goal);
-            
-
-			GameObject start = Instantiate (waypointObject, (player.transform.position), Quaternion.identity) as GameObject; //+ new Vector3 (.14f, -.51f)
+			
+			
+			GameObject start = Instantiate (waypointObject, (player.transform.position), Quaternion.identity) as GameObject;
 			start.name = "Start";
 			graphManager.addNode (start);
 
-			try {
-				path = AStarPath (start.GetComponent<Waypoint> (), goal.GetComponent<Waypoint> ());
-			} catch (KeyNotFoundException e) {
-				path = new List<Waypoint>();
-			}
-
-			pathLength = path.Count;
-			if (pathLength > 0) {
-				moving = true;
-				playerController.setAnimationBoolState("Moving",true);
-				pathLength = path.Count;
-				currentWaypointCount = 0;
-				nextDestination = new Vector3 (path[0].transform.position.x, path[0].transform.position.y, 0.0f);
-				finalDestination = new Vector3(path[pathLength - 1].transform.position.x, path[pathLength - 1].transform.position.y, 0.0f);
-			}
-
+			generatePath(start,goal);
+		}
+		if (moving) {
+			SetUpMovement ();
+			playerController.setAnimationBoolState("Moving",true);
 		}
 
+		if (scaleCam[0] != scaleCam[1]) {
+			ScaleCamera();
+		}
+	}
 
-		SetUpMovement ();
+	public Vector3 getFinalDestination() {
+		return finalDestination;
 	}
 
 
+	void ScaleCamera() {
+		float newCameraScale = Mathf.SmoothDamp (scaleCam [0], scaleCam [1], ref scaleVelocity, cameraScaleTime);
+		gameCam.orthographicSize = scaleCam [0] = newCameraScale;
+	}
+
+	void generatePath(GameObject start, GameObject goal) {
+		
+		try {
+			path = AStarPath (start.GetComponent<Waypoint> (), goal.GetComponent<Waypoint> ());
+		} catch (KeyNotFoundException e) {
+			path = new List<Waypoint>();
+		}
+		
+		pathLength = path.Count;
+		if (pathLength > 0) {
+			moving = true;
+			pathLength = path.Count;
+			currentWaypointCount = 0;
+			nextDestination = new Vector3 (path[currentWaypointCount].transform.position.x, path[currentWaypointCount].transform.position.y, 0.0f);
+			Waypoint goalPoint =  path[pathLength - 1];
+			finalDestination = new Vector3(goalPoint.transform.position.x, goalPoint.transform.position.y, 0.0f);
+			
+			double best = (double)Mathf.Infinity;
+			Waypoint closestWaypoint = goalPoint;
+			foreach (KeyValuePair <GameObject,bool> point in goalPoint.adjs) {
+				if (point.Value && point.Key.name != "Start" && point.Key.name != "Goal") {
+					double curr = manhattanDistance(point.Key.transform.position, goalPoint.transform.position);
+					if (curr < best) {
+						best = curr;
+						closestWaypoint = point.Key.GetComponent<Waypoint>();
+					}
+				}
+			}
+			path[pathLength-1].setCameraScale(closestWaypoint.getCameraScale());
+		}
+
+	}
 
 	void SetUpMovement() {
-		if (moving) {
-			step = speed * Time.deltaTime;
-			//if (start == true) {
-				//player.transform.position = awakePosition;
-				//start = false;
-			//}
-
-			if (nextDestination.x > player.transform.position.x) {
-				player.transform.eulerAngles = new Vector3 (0.0f,0.0f,0.0f);
-			} else {
-				player.transform.eulerAngles = new Vector3 (0.0f,180.0f,0.0f);
-			}
-
-			Vector3 stepDist3 = Vector3.MoveTowards(player.transform.position, nextDestination, step);
-			stepDist = new Vector2(stepDist3.x, stepDist3.y);
+		step = speed * Time.deltaTime;
+		if (start == true) {
+			player.transform.position = awakePosition;
+			start = false;
 		}
+
+		if (nextDestination.x > player.transform.position.x) {
+			player.transform.eulerAngles = new Vector3 (0.0f,0.0f,0.0f);
+		} else {
+			player.transform.eulerAngles = new Vector3 (0.0f,180.0f,0.0f);
+		}
+
+		Vector3 stepDist3 = Vector3.MoveTowards(player.transform.position, nextDestination, step);
+		stepDist = new Vector2(stepDist3.x, stepDist3.y);
 	}
 	
 	void FixedUpdate () {
@@ -110,10 +157,15 @@ public class PathFinding : MonoBehaviour {
 
 
 
+
 		} else if (new Vector2 (player.transform.position.x, player.transform.position.y) == new Vector2 (nextDestination.x, nextDestination.y)) {
 			currentWaypointCount += 1;
 			if (currentWaypointCount < pathLength) {
 				nextDestination = new Vector3 (path[currentWaypointCount].transform.position.x, path[currentWaypointCount].transform.position.y, 0.0f);
+
+				if (path[currentWaypointCount].getCameraScale() != scaleCam[1]) {
+					scaleCam[1] = path[currentWaypointCount].getCameraScale();
+				}
 			}
 		}
 	}

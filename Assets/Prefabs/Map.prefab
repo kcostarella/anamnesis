@@ -25,7 +25,7 @@ GameObject:
   - 4: {fileID: 460840}
   - 212: {fileID: 21260010}
   m_Layer: 0
-  m_Name: LevelLayers-03
+  m_Name: Sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,7 +60,7 @@ GameObject:
   - 4: {fileID: 431474}
   - 212: {fileID: 21212390}
   m_Layer: 0
-  m_Name: LevelLayers-01
+  m_Name: Mountains
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,8 +234,8 @@ PolygonCollider2D:
       - {x: 2.80058336, y: 8.60775375}
       - {x: 2.3758564, y: 8.76633453}
       - {x: 2.20383167, y: 8.95753765}
-      - {x: 2.74898958, y: 9.6495533}
-      - {x: 3.82063437, y: 9.61653996}
+      - {x: 2.79190326, y: 9.56372166}
+      - {x: 3.82063437, y: 9.53071117}
       - {x: 3.87996531, y: 9.20310593}
       - {x: 3.58247423, y: 9.01336288}
       - {x: 3.02427864, y: 9.06131744}
@@ -324,12 +324,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edc81ba0486c949cf85b33a8114c2351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
   velocity: {x: 1, y: 1}
   waypointObject: {fileID: 132030, guid: 14fda665cc28ff34abac993d32b61e59, type: 2}
   awakePosition: {x: -27, y: -17, z: 0}
   startPosition: {x: -20, y: -17}
   player: {fileID: 0}
+  cameraScaleTime: 3
+  scaleVelocity: 0
 --- !u!212 &21206110
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -353,7 +355,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: c8a6ae41a4ffb4e5595eff56dc36f93e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21212390
@@ -379,7 +381,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 1d940334d16bd476d9426017f470e5b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21260010

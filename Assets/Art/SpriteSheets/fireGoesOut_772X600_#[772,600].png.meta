@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: 3a7ad5d8cdf4647a4942a74861b8b5d4
+timeCreated: 1430855320
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fireGoesOut_772X600_#[772,600]_0
+    21300002: fireGoesOut_772X600_#[772,600]_1
+    21300004: fireGoesOut_772X600_#[772,600]_2
+    21300006: fireGoesOut_772X600_#[772,600]_3
+    21300008: fireGoesOut_772X600_#[772,600]_4
+    21300010: fireGoesOut_772X600_#[772,600]_5
+    21300012: fireGoesOut_772X600_#[772,600]_6
+    21300014: fireGoesOut_772X600_#[772,600]_7
+    21300016: fireGoesOut_772X600_#[772,600]_8
+    21300018: fireGoesOut_772X600_#[772,600]_9
+    21300020: fireGoesOut_772X600_#[772,600]_10
+    21300022: fireGoesOut_772X600_#[772,600]_11
+    21300024: fireGoesOut_772X600_#[772,600]_12
+    21300026: fireGoesOut_772X600_#[772,600]_13
+    21300028: fireGoesOut_772X600_#[772,600]_14
+    21300030: fireGoesOut_772X600_#[772,600]_15
+    21300032: fireGoesOut_772X600_#[772,600]_16
+    21300034: fireGoesOut_772X600_#[772,600]_17
+    21300036: fireGoesOut_772X600_#[772,600]_18
+    21300038: fireGoesOut_772X600_#[772,600]_19
+    21300040: fireGoesOut_772X600_#[772,600]_20
+    21300042: fireGoesOut_772X600_#[772,600]_21
+    21300044: fireGoesOut_772X600_#[772,600]_22
+    21300046: fireGoesOut_772X600_#[772,600]_23
+    21300048: fireGoesOut_772X600_#[772,600]_24
+    21300050: fireGoesOut_772X600_#[772,600]_25
+    21300052: fireGoesOut_772X600_#[772,600]_26
+    21300054: fireGoesOut_772X600_#[772,600]_27
+    21300056: fireGoesOut_772X600_#[772,600]_28
+    21300058: fireGoesOut_772X600_#[772,600]_29
+    21300060: fireGoesOut_772X600_#[772,600]_30
+    21300062: fireGoesOut_772X600_#[772,600]_31
+    21300064: fireGoesOut_772X600_#[772,600]_32
+    21300066: fireGoesOut_772X600_#[772,600]_33
+    21300068: fireGoesOut_772X600_#[772,600]_34
+    21300070: fireGoesOut_772X600_#[772,600]_35
+    21300072: fireGoesOut_772X600_#[772,600]_36
+    21300074: fireGoesOut_772X600_#[772,600]_37
+    21300076: fireGoesOut_772X600_#[772,600]_38
+    21300078: fireGoesOut_772X600_#[772,600]_39
+    21300080: fireGoesOut_772X600_#[772,600]_40
+    21300082: fireGoesOut_772X600_#[772,600]_41
+    21300084: fireGoesOut_772X600_#[772,600]_42
+    21300086: fireGoesOut_772X600_#[772,600]_43
+    21300088: fireGoesOut_772X600_#[772,600]_44
+    21300090: fireGoesOut_772X600_#[772,600]_45
+    21300092: fireGoesOut_772X600_#[772,600]_46
+    21300094: fireGoesOut_772X600_#[772,600]_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fireGoesOut_772X600_#[772,600]_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_1
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 4200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_2
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 4200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_3
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 4200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_4
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 4200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_5
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 4200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_7
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 3600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_8
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 3600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_9
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 3600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_10
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 3600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_11
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 3600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_13
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 3000
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_14
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 3000
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_15
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 3000
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_16
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 3000
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_17
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 3000
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_19
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2400
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_20
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 2400
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_21
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 2400
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_22
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 2400
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_23
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 2400
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_25
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1800
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_26
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1800
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_27
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 1800
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_28
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 1800
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_29
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 1800
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_31
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_32
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_33
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 1200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_34
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 1200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_35
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 1200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_37
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_38
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_39
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_40
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_41
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_43
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 0
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_44
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 0
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_45
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 0
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_46
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 0
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fireGoesOut_772X600_#[772,600]_47
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 0
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

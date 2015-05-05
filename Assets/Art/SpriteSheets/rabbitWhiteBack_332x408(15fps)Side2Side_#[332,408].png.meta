@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 05ef0f8f5de974827ab838155f6e849c
+timeCreated: 1430854781
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_0
+    21300002: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_1
+    21300004: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_2
+    21300006: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_3
+    21300008: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_4
+    21300010: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_5
+    21300012: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_6
+    21300014: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_7
+    21300016: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_8
+    21300018: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_9
+    21300020: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_10
+    21300022: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_11
+    21300024: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_12
+    21300026: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_13
+    21300028: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_14
+    21300030: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_15
+    21300032: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_16
+    21300034: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_17
+    21300036: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_18
+    21300038: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_19
+    21300040: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_20
+    21300042: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_21
+    21300044: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_22
+    21300046: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_23
+    21300048: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_24
+    21300050: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_25
+    21300052: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_26
+    21300054: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_27
+    21300056: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_28
+    21300058: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_29
+    21300060: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_30
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2448
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_1
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2448
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_2
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2448
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_3
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2448
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_4
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 2448
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2040
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_6
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2040
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_7
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2040
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_8
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2040
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_9
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 2040
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1632
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_11
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1632
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_12
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1632
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_13
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1632
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_14
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1632
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1224
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_16
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1224
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_17
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1224
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_18
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1224
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_19
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1224
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_21
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 816
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_22
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 816
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_23
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 816
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_24
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 816
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 408
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_27
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 408
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_28
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 408
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_29
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 408
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rabbitWhiteBack_332x408(15fps)Side2Side_#[332,408]_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 332
+        height: 408
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
