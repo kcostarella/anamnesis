@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: ceb93dd439c314ed083a9feb60f15569
+timeCreated: 1430893304
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FirstFireResize_0
+    21300002: FirstFireResize_1
+    21300004: FirstFireResize_2
+    21300006: FirstFireResize_3
+    21300008: FirstFireResize_4
+    21300010: FirstFireResize_5
+    21300012: FirstFireResize_6
+    21300014: FirstFireResize_7
+    21300016: FirstFireResize_8
+    21300018: FirstFireResize_9
+    21300020: FirstFireResize_10
+    21300022: FirstFireResize_11
+    21300024: FirstFireResize_12
+    21300026: FirstFireResize_13
+    21300028: FirstFireResize_14
+    21300030: FirstFireResize_15
+    21300032: FirstFireResize_16
+    21300034: FirstFireResize_17
+    21300036: FirstFireResize_18
+    21300038: FirstFireResize_19
+    21300040: FirstFireResize_20
+    21300042: FirstFireResize_21
+    21300044: FirstFireResize_22
+    21300046: FirstFireResize_23
+    21300048: FirstFireResize_24
+    21300050: FirstFireResize_25
+    21300052: FirstFireResize_26
+    21300054: FirstFireResize_27
+    21300056: FirstFireResize_28
+    21300058: FirstFireResize_29
+    21300060: FirstFireResize_30
+    21300062: FirstFireResize_31
+    21300064: FirstFireResize_32
+    21300066: FirstFireResize_33
+    21300068: FirstFireResize_34
+    21300070: FirstFireResize_35
+    21300072: FirstFireResize_36
+    21300074: FirstFireResize_37
+    21300076: FirstFireResize_38
+    21300078: FirstFireResize_39
+    21300080: FirstFireResize_40
+    21300082: FirstFireResize_41
+    21300084: FirstFireResize_42
+    21300086: FirstFireResize_43
+    21300088: FirstFireResize_44
+    21300090: FirstFireResize_45
+    21300092: FirstFireResize_46
+    21300094: FirstFireResize_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FirstFireResize_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_1
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 4200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_2
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 4200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_3
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 4200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_4
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 4200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_5
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 4200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_7
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 3600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_8
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 3600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_9
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 3600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_10
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 3600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_11
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 3600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_13
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 3000
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_14
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 3000
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_15
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 3000
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_16
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 3000
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_17
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 3000
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_19
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2400
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_20
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 2400
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_21
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 2400
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_22
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 2400
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_23
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 2400
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_25
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1800
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_26
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1800
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_27
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 1800
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_28
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 1800
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_29
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 1800
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_31
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_32
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_33
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 1200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_34
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 1200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_35
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 1200
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_37
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_38
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_39
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_40
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_41
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 600
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_43
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 0
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_44
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 0
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_45
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 0
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_46
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 0
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FirstFireResize_47
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 0
+        width: 772
+        height: 600
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

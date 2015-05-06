@@ -7,6 +7,7 @@ public class playerTracker : MonoBehaviour {
 	public float mapy;
 
 	private PathFinding pathFinding;
+	private PlayerStatus playerStatus;
 	private Camera cam;
 	private Vector3 scaleVelocity;
 	private float cameraScaleTime;
@@ -18,6 +19,7 @@ public class playerTracker : MonoBehaviour {
 		gameObject.transform.position = new Vector3 (playerTransform.position.x, playerTransform.position.y, gameObject.transform.position.z);
 		cam = gameObject.GetComponent<Camera> ();
 		pathFinding = GameObject.FindGameObjectWithTag ("Path").GetComponent<PathFinding> ();
+		playerStatus = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerStatus>();
 		cameraScaleTime = 0.50f;
 		scaleVelocity = new Vector3 (0.0f, 0.0f, 0.0f);
 		currentDestination = new Vector3 (Mathf.Infinity, Mathf.Infinity, 0.0f);
@@ -34,6 +36,9 @@ public class playerTracker : MonoBehaviour {
 		Vector3 newDestination = pathFinding.getFinalDestination ();
 		if (newDestination != currentDestination) {
 			currentDestination = newDestination;
+		}
+		if (playerStatus.shyTreeActive) {
+			currentDestination += new Vector3(-3.0f, 0.0f, 0.0f);
 		}
 		Vector3 step = Vector3.SmoothDamp (gameObject.transform.position, currentDestination, ref scaleVelocity, cameraScaleTime);
 		gameObject.transform.position = new Vector3 (Mathf.Clamp (step.x, xMin, xMax), Mathf.Clamp (step.y, yMin, yMax), gameObject.transform.position.z);

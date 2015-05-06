@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class FireController : MonoBehaviour {
-	Animator anim;
+	public AudioSource scarySound;
+	private Animator anim;
 	private bool fireOut;
 	// Use this for initialization
 	void Start () {
@@ -25,6 +26,10 @@ public class FireController : MonoBehaviour {
 
 	public bool isFireOut() {
 		return fireOut;	
+	}
+
+	public void playScarySound() {
+		scarySound.Play ();
 	}
 }
 

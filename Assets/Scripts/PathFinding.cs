@@ -80,7 +80,10 @@ public class PathFinding : MonoBehaviour {
 		}
 		if (moving) {
 			SetUpMovement ();
-			playerController.setAnimationBoolState("Moving",true);
+			playerController.setAnimationBoolState ("Moving", true);
+		} else {
+			playerController.setAnimationBoolState ("Moving", false);
+
 		}
 
 		if (scaleCam[0] != scaleCam[1]) {
@@ -92,8 +95,15 @@ public class PathFinding : MonoBehaviour {
 		return finalDestination;
 	}
 
+	public void setFinalDestination(Vector3 dest) {
+		finalDestination = dest;
+	}
+
 	public void setFreeToMove(bool value) {
 		isMoveable = value;
+		if (!isMoveable) {
+			moving = false;
+		}
 	}
 
 	public bool getFreeToMove() {
@@ -172,12 +182,11 @@ public class PathFinding : MonoBehaviour {
 		if (new Vector2 (player.transform.position.x, player.transform.position.y) == new Vector2 (finalDestination.x, finalDestination.y)) {
 			moving = false;
 			playerController.setAnimationBoolState("Moving",false);
-
+		} else if (new Vector2 (player.transform.position.x, player.transform.position.y) == new Vector2 (nextDestination.x, nextDestination.y)) {
 			if (currentWaypointCount < pathLength && path[currentWaypointCount].getEventObject() != null) {
 				EventController thisEvent = path[currentWaypointCount].getEventObject().GetComponent<EventController>();
 				thisEvent.StartEvent(thisEvent.eventName);
 			}
-		} else if (new Vector2 (player.transform.position.x, player.transform.position.y) == new Vector2 (nextDestination.x, nextDestination.y)) {
 			currentWaypointCount += 1;
 			if (currentWaypointCount < pathLength) {
 				nextDestination = new Vector3 (path[currentWaypointCount].transform.position.x, path[currentWaypointCount].transform.position.y, 0.0f);
@@ -185,6 +194,7 @@ public class PathFinding : MonoBehaviour {
 				if (path[currentWaypointCount].getCameraScale() != scaleCam[1]) {
 					scaleCam[1] = path[currentWaypointCount].getCameraScale();
 				}
+
 			}
 		}
 	}

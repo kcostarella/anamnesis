@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 56ae25476941b45c29eca545ca3cd90d
-timeCreated: 1430339403
+timeCreated: 1430897958
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -155,7 +155,7 @@ TextureImporter:
         y: 9600
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_1
@@ -165,7 +165,7 @@ TextureImporter:
         y: 9600
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_2
@@ -175,7 +175,7 @@ TextureImporter:
         y: 9600
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_3
@@ -185,7 +185,7 @@ TextureImporter:
         y: 9600
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_4
@@ -195,7 +195,7 @@ TextureImporter:
         y: 9600
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_5
@@ -205,7 +205,7 @@ TextureImporter:
         y: 9600
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_6
@@ -215,7 +215,7 @@ TextureImporter:
         y: 9600
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_7
@@ -225,7 +225,7 @@ TextureImporter:
         y: 9600
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_8
@@ -235,7 +235,7 @@ TextureImporter:
         y: 8400
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_9
@@ -245,7 +245,7 @@ TextureImporter:
         y: 8400
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_10
@@ -255,7 +255,7 @@ TextureImporter:
         y: 8400
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_11
@@ -265,7 +265,7 @@ TextureImporter:
         y: 8400
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_12
@@ -275,7 +275,7 @@ TextureImporter:
         y: 8400
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_13
@@ -285,7 +285,7 @@ TextureImporter:
         y: 8400
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_14
@@ -295,7 +295,7 @@ TextureImporter:
         y: 8400
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_15
@@ -305,8 +305,8 @@ TextureImporter:
         y: 8400
         width: 1068
         height: 1200
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_16
       rect:
@@ -315,7 +315,7 @@ TextureImporter:
         y: 7200
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_17
@@ -325,7 +325,7 @@ TextureImporter:
         y: 7200
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_18
@@ -335,7 +335,7 @@ TextureImporter:
         y: 7200
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_19
@@ -345,7 +345,7 @@ TextureImporter:
         y: 7200
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_20
@@ -355,7 +355,7 @@ TextureImporter:
         y: 7200
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_21
@@ -365,7 +365,7 @@ TextureImporter:
         y: 7200
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_22
@@ -375,7 +375,7 @@ TextureImporter:
         y: 7200
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_23
@@ -385,7 +385,7 @@ TextureImporter:
         y: 7200
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_24
@@ -395,7 +395,7 @@ TextureImporter:
         y: 6000
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_25
@@ -405,7 +405,7 @@ TextureImporter:
         y: 6000
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_26
@@ -415,7 +415,7 @@ TextureImporter:
         y: 6000
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_27
@@ -425,7 +425,7 @@ TextureImporter:
         y: 6000
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_28
@@ -435,7 +435,7 @@ TextureImporter:
         y: 6000
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_29
@@ -445,7 +445,7 @@ TextureImporter:
         y: 6000
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_30
@@ -455,7 +455,7 @@ TextureImporter:
         y: 6000
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_31
@@ -465,7 +465,7 @@ TextureImporter:
         y: 6000
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_32
@@ -475,7 +475,7 @@ TextureImporter:
         y: 4800
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_33
@@ -485,7 +485,7 @@ TextureImporter:
         y: 4800
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_34
@@ -495,7 +495,7 @@ TextureImporter:
         y: 4800
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_35
@@ -505,7 +505,7 @@ TextureImporter:
         y: 4800
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_36
@@ -515,7 +515,7 @@ TextureImporter:
         y: 4800
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_37
@@ -525,7 +525,7 @@ TextureImporter:
         y: 4800
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_38
@@ -535,7 +535,7 @@ TextureImporter:
         y: 4800
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_39
@@ -545,7 +545,7 @@ TextureImporter:
         y: 4800
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_40
@@ -555,7 +555,7 @@ TextureImporter:
         y: 3600
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_41
@@ -565,7 +565,7 @@ TextureImporter:
         y: 3600
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_42
@@ -575,7 +575,7 @@ TextureImporter:
         y: 3600
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_43
@@ -585,7 +585,7 @@ TextureImporter:
         y: 3600
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_44
@@ -595,7 +595,7 @@ TextureImporter:
         y: 3600
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_45
@@ -605,7 +605,7 @@ TextureImporter:
         y: 3600
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_46
@@ -615,7 +615,7 @@ TextureImporter:
         y: 3600
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_47
@@ -625,7 +625,7 @@ TextureImporter:
         y: 3600
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_48
@@ -635,7 +635,7 @@ TextureImporter:
         y: 2400
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_49
@@ -645,7 +645,7 @@ TextureImporter:
         y: 2400
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_50
@@ -655,7 +655,7 @@ TextureImporter:
         y: 2400
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_51
@@ -665,7 +665,7 @@ TextureImporter:
         y: 2400
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_52
@@ -675,7 +675,7 @@ TextureImporter:
         y: 2400
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_53
@@ -685,7 +685,7 @@ TextureImporter:
         y: 2400
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_54
@@ -695,7 +695,7 @@ TextureImporter:
         y: 2400
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_55
@@ -705,7 +705,7 @@ TextureImporter:
         y: 2400
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_56
@@ -715,7 +715,7 @@ TextureImporter:
         y: 1200
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_57
@@ -725,7 +725,7 @@ TextureImporter:
         y: 1200
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_58
@@ -735,7 +735,7 @@ TextureImporter:
         y: 1200
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_59
@@ -745,7 +745,7 @@ TextureImporter:
         y: 1200
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_60
@@ -755,7 +755,7 @@ TextureImporter:
         y: 1200
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_61
@@ -765,7 +765,7 @@ TextureImporter:
         y: 1200
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_62
@@ -775,7 +775,7 @@ TextureImporter:
         y: 1200
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_63
@@ -785,7 +785,7 @@ TextureImporter:
         y: 1200
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: TreeKissRight_1068x1200_#[1068,1200] 1_64
@@ -795,7 +795,7 @@ TextureImporter:
         y: 0
         width: 1068
         height: 1200
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
