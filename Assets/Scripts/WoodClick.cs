@@ -7,6 +7,7 @@ public class WoodClick : MonoBehaviour {
     PlayerStatus playerStatus;
     GameObject shyTree;
     Animator shyTreeAnim;
+	AudioSource gong;
 
     void Start()
     {
@@ -14,7 +15,8 @@ public class WoodClick : MonoBehaviour {
         shyTree = GameObject.FindGameObjectWithTag("ShyTree");
         shyTreeAnim = shyTree.GetComponent<Animator>();
         playerStatus = player.GetComponent<PlayerStatus>();
-    }
+		gong = GameObject.FindGameObjectWithTag("Gong").GetComponent<AudioSource> ();
+	}
 	// Use this for initialization
     void OnMouseDown()
     {
@@ -22,6 +24,7 @@ public class WoodClick : MonoBehaviour {
         {
             if (!shyTreeAnim.GetBool("Locked"))
             {
+				gong.Play();
                 Destroy(gameObject);
                 playerStatus.numWood += 1;
                 //Debug.Log("Wood Collected");

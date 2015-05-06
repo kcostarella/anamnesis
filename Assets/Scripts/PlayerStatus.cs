@@ -6,7 +6,8 @@ public class PlayerStatus : MonoBehaviour {
     public bool shyTreeActive;
     public bool moving;
     public int numWood;
-
+	public EventController eventController;
+	bool doOnce = false;
     void Awake()
     {
         moving = false;
@@ -20,6 +21,9 @@ public class PlayerStatus : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if (!doOnce && numWood == 3) {
+			eventController.eventName = "FireOn";
+			doOnce = !doOnce;
+		}
 	}
 }

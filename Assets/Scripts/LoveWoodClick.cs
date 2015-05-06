@@ -9,6 +9,7 @@ public class LoveWoodClick : MonoBehaviour {
 	Animator loveTreeAnim;
 	PlayerStatus playerStatus;
 	PolygonCollider2D polyCol;
+	AudioSource gong;
 	private bool happened = false;
 
 	// Use this for initialization
@@ -18,6 +19,7 @@ public class LoveWoodClick : MonoBehaviour {
 		polyCol.enabled = false;
 		woodSprite = GetComponent<SpriteRenderer> ();
 		woodFadeIn = false;
+		gong = GameObject.FindGameObjectWithTag("Gong").GetComponent<AudioSource> ();
 		loveTreeAnim = GameObject.FindGameObjectWithTag ("LoveTree").GetComponent<Animator> ();
 	}
 
@@ -37,6 +39,7 @@ public class LoveWoodClick : MonoBehaviour {
 	}
 	
 	void OnMouseDown() {
+		gong.Play ();
 		Destroy(gameObject);
 		playerStatus.numWood += 1;
 	}

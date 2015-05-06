@@ -21,9 +21,9 @@ public class PlayerController : MonoBehaviour {
 
 	public void setAnimationBoolState(string state, bool val) {
 		anim.SetBool (state, val);
-		if (val) {
+		if (!stepSound.isPlaying && val) {
 			stepSound.Play ();
-		} else {
+		} else if (stepSound.isPlaying && !val) {
 			stepSound.Stop();
 		}
 

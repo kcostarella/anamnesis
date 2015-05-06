@@ -182,7 +182,12 @@ public class PathFinding : MonoBehaviour {
 		if (new Vector2 (player.transform.position.x, player.transform.position.y) == new Vector2 (finalDestination.x, finalDestination.y)) {
 			moving = false;
 			playerController.setAnimationBoolState("Moving",false);
+			if (currentWaypointCount < pathLength && path[currentWaypointCount].getEventObject() != null) {
+				EventController thisEvent = path[currentWaypointCount].getEventObject().GetComponent<EventController>();
+				thisEvent.StartEvent(thisEvent.eventName);
+			}
 		} else if (new Vector2 (player.transform.position.x, player.transform.position.y) == new Vector2 (nextDestination.x, nextDestination.y)) {
+
 			if (currentWaypointCount < pathLength && path[currentWaypointCount].getEventObject() != null) {
 				EventController thisEvent = path[currentWaypointCount].getEventObject().GetComponent<EventController>();
 				thisEvent.StartEvent(thisEvent.eventName);

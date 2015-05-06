@@ -7,11 +7,13 @@ public class EventController : MonoBehaviour {
 	Camera gameCam;
 	public FireController fireController;
 	public AudioSource mainSoundTrack;
+	public SceneFadeInout fader;
 
 
 	public string eventName;
 	private bool fireOutEventPlayed;
 	private bool stopMainMusic;
+	private bool gameOver;
 	private float velocity;
 	// Use this for initialization
 	void Start () {
@@ -20,6 +22,7 @@ public class EventController : MonoBehaviour {
 		gameCam = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Camera> ();
 		fireOutEventPlayed = false;
 		stopMainMusic = false;
+		gameOver = false;
 		velocity = 0.0f;
 
 	}
@@ -32,10 +35,14 @@ public class EventController : MonoBehaviour {
 	}
 
 	public void StartEvent(string name) {
-		if (name == "FireOut" && !fireOutEventPlayed && false) { 
+		if (!fireOutEventPlayed && name == "FireOut" ) { 
 			stopMainMusic = true;
 			StartCoroutine (FireOut());
 			fireOutEventPlayed = true;
+		}
+		if (name == "FireOn") {
+			stopMainMusic = true;
+			StartCoroutine (FireOn());
 		}
 	}
 
@@ -60,4 +67,24 @@ public class EventController : MonoBehaviour {
 		mainSoundTrack.volume = 1.0f;
 		stopMainMusic = false;
 	}
+
+	IEnumerator FireOn() {
+		pathFinding.setFreeToMove (false);
+		yield return new WaitForEndOfFrame ();
+		pathFinding.setFinalDestination (GameObject.FindGameObjectWithTag ("Fire").transform.position);
+		yield return new WaitForEndOfFrame ();
+		pathFinding.setScaleCamArray (1, 4.0f);
+		while (gameCam.orthographicSize > 4.1f) {
+			yield return new WaitForEndOfFrame();
+		}
+		fireController.setFireOn ();
+		while (!fireController.isFireOn()) {
+			yield return new WaitForEndOfFrame();
+		}
+		fader.FadeToBlack (2);
+
+
+	}
+
 }
+
