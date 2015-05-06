@@ -8,6 +8,7 @@ TagManager:
   - Waypoint
   - StartWaypoint
   - Path
+  - Fire
   layers:
   - Default
   - TransparentFX

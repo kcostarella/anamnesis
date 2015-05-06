@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 2a691cbebeb2c457ea90900c738df3ff
-timeCreated: 1430854298
+timeCreated: 1430873521
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -67,7 +67,7 @@ TextureImporter:
         y: 2040
         width: 332
         height: 408
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rabbitWhite_332x408(15fps)Wave_#[332,408]_1
@@ -77,7 +77,7 @@ TextureImporter:
         y: 2040
         width: 332
         height: 408
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rabbitWhite_332x408(15fps)Wave_#[332,408]_2
@@ -87,7 +87,7 @@ TextureImporter:
         y: 2040
         width: 332
         height: 408
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rabbitWhite_332x408(15fps)Wave_#[332,408]_3
@@ -97,7 +97,7 @@ TextureImporter:
         y: 2040
         width: 332
         height: 408
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rabbitWhite_332x408(15fps)Wave_#[332,408]_4
@@ -107,7 +107,7 @@ TextureImporter:
         y: 1632
         width: 332
         height: 408
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rabbitWhite_332x408(15fps)Wave_#[332,408]_5
@@ -117,7 +117,7 @@ TextureImporter:
         y: 1632
         width: 332
         height: 408
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rabbitWhite_332x408(15fps)Wave_#[332,408]_6
@@ -127,7 +127,7 @@ TextureImporter:
         y: 1632
         width: 332
         height: 408
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rabbitWhite_332x408(15fps)Wave_#[332,408]_7
@@ -137,7 +137,7 @@ TextureImporter:
         y: 1632
         width: 332
         height: 408
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rabbitWhite_332x408(15fps)Wave_#[332,408]_8
@@ -147,7 +147,7 @@ TextureImporter:
         y: 1224
         width: 332
         height: 408
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rabbitWhite_332x408(15fps)Wave_#[332,408]_9
@@ -157,7 +157,7 @@ TextureImporter:
         y: 1224
         width: 332
         height: 408
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: rabbitWhite_332x408(15fps)Wave_#[332,408]_10
@@ -167,7 +167,7 @@ TextureImporter:
         y: 1224
         width: 332
         height: 408
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 

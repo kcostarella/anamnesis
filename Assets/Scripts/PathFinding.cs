@@ -25,6 +25,7 @@ public class PathFinding : MonoBehaviour {
     private GraphManager graphManager;
 	private Camera gameCam;
 	private bool start;
+	private bool isMoveable;
 
 	private float[] scaleCam;
 	public float cameraScaleTime;
@@ -38,6 +39,7 @@ public class PathFinding : MonoBehaviour {
 		graphManager = graphManagerObject.GetComponent<GraphManager>();
 		gameCam = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Camera> ();
 		start = true;
+		isMoveable = true;
 		scaleCam = new float[2];
 		scaleCam [0] = scaleCam [1] = gameCam.orthographicSize;
 
@@ -59,11 +61,10 @@ public class PathFinding : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetButtonDown ("Fire1")) {
+		if (Input.GetButtonDown ("Fire1") && isMoveable) {
 			WorldPosition = Camera.main.ScreenToWorldPoint (Input.mousePosition);
 			WorldPosition = new Vector3 (WorldPosition.x, WorldPosition.y, 0.0f);
-			Debug.Log (waypointObject);
-			
+
 			GameObject goal = Instantiate (waypointObject, WorldPosition, Quaternion.identity) as GameObject;
 			goal.name = "Goal";
 			graphManager.addNode (goal);
@@ -89,7 +90,17 @@ public class PathFinding : MonoBehaviour {
 		return finalDestination;
 	}
 
+	public void setFreeToMove(bool value) {
+		isMoveable = value;
+	}
 
+	public bool getFreeToMove() {
+		return isMoveable;
+	}
+
+	public void setScaleCamArray(int index, float val) {
+		scaleCam [index] = val;
+	}
 	void ScaleCamera() {
 		float newCameraScale = Mathf.SmoothDamp (scaleCam [0], scaleCam [1], ref scaleVelocity, cameraScaleTime);
 		gameCam.orthographicSize = scaleCam [0] = newCameraScale;
@@ -124,6 +135,10 @@ public class PathFinding : MonoBehaviour {
 				}
 			}
 			path[pathLength-1].setCameraScale(closestWaypoint.getCameraScale());
+			path[pathLength-1].setLayer (closestWaypoint.getLayer ());
+			if (closestWaypoint.getEventObject() != null) {
+				path[pathLength-1].setEventObject(closestWaypoint.getEventObject());
+			}
 		}
 
 	}
@@ -155,14 +170,15 @@ public class PathFinding : MonoBehaviour {
 			moving = false;
 			playerController.setAnimationBoolState("Moving",false);
 
-
-
-
+			if (currentWaypointCount < pathLength && path[currentWaypointCount].getEventObject() != null) {
+				EventController thisEvent = path[currentWaypointCount].getEventObject().GetComponent<EventController>();
+				thisEvent.StartEvent(thisEvent.eventName);
+			}
 		} else if (new Vector2 (player.transform.position.x, player.transform.position.y) == new Vector2 (nextDestination.x, nextDestination.y)) {
 			currentWaypointCount += 1;
 			if (currentWaypointCount < pathLength) {
 				nextDestination = new Vector3 (path[currentWaypointCount].transform.position.x, path[currentWaypointCount].transform.position.y, 0.0f);
-
+				player.GetComponent<SpriteRenderer>().sortingOrder = path[currentWaypointCount].getLayer ();
 				if (path[currentWaypointCount].getCameraScale() != scaleCam[1]) {
 					scaleCam[1] = path[currentWaypointCount].getCameraScale();
 				}

@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 446912}
   - 212: {fileID: 21291310}
   - 95: {fileID: 9590788}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: ButtBunnyBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
