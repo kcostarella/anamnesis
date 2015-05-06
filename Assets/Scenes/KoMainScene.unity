@@ -481,40 +481,17 @@ MonoBehaviour:
 GameObject:
   m_PrefabParentObject: {fileID: 144058, guid: 47abbd95f05cf234089a0bba1bda73d1, type: 2}
   m_PrefabInternal: {fileID: 442397818}
---- !u!60 &73116583
-PolygonCollider2D:
+--- !u!114 &73116583
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 73116579}
   m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-    m_Paths:
-    - - {x: .275000006, y: -.0799999982}
-      - {x: .485000014, y: .100000001}
-      - {x: .485000014, y: .209999993}
-      - {x: .435000002, y: .239999995}
-      - {x: .375, y: .230000004}
-      - {x: .395000011, y: .230000004}
-      - {x: .444999993, y: .25999999}
-      - {x: .414999992, y: .370000005}
-      - {x: .144999996, y: .370000005}
-      - {x: .125, y: .360000014}
-      - {x: .0149999997, y: .200000003}
-      - {x: -.075000003, y: .0900000036}
-      - {x: -.294999987, y: -.0599999987}
-      - {x: -.495000005, y: -.200000003}
-      - {x: -.495000005, y: -.389999986}
-      - {x: -.465000004, y: -.409999996}
-      - {x: -.275000006, y: -.409999996}
-      - {x: -.104999997, y: -.379999995}
-      - {x: .0350000001, y: -.280000001}
-      - {x: .0549999997, y: -.129999995}
-      - {x: .204999998, y: -.100000001}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13262668b5f2b40ef8ee1231f6cddc09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &76241106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1506,7 +1483,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 8
   m_Sprite: {fileID: 21300000, guid: 7dbd5818819cf45f584c6c05d6bdb152, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &347047954
@@ -5951,10 +5928,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2059e5cc83eeaaf4fa6640b6f4763569, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xMax: 0
-  xMin: 0
-  WorldPosition: {x: 0, y: 0, z: 0}
-  player: {fileID: 0}
 --- !u!1 &1849527642
 GameObject:
   m_ObjectHideFlags: 0
