@@ -1,9 +1,28 @@
 fileFormatVersion: 2
 guid: 6afdb2d90fb134a80ac0d14649ee50a8
-timeCreated: 1430852842
+timeCreated: 1430859786
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Tree_shy_164x256(15fps)_#[164,256]_0
+    21300002: Tree_shy_164x256(15fps)_#[164,256]_1
+    21300004: Tree_shy_164x256(15fps)_#[164,256]_2
+    21300006: Tree_shy_164x256(15fps)_#[164,256]_3
+    21300008: Tree_shy_164x256(15fps)_#[164,256]_4
+    21300010: Tree_shy_164x256(15fps)_#[164,256]_5
+    21300012: Tree_shy_164x256(15fps)_#[164,256]_6
+    21300014: Tree_shy_164x256(15fps)_#[164,256]_7
+    21300016: Tree_shy_164x256(15fps)_#[164,256]_8
+    21300018: Tree_shy_164x256(15fps)_#[164,256]_9
+    21300020: Tree_shy_164x256(15fps)_#[164,256]_10
+    21300022: Tree_shy_164x256(15fps)_#[164,256]_11
+    21300024: Tree_shy_164x256(15fps)_#[164,256]_12
+    21300026: Tree_shy_164x256(15fps)_#[164,256]_13
+    21300028: Tree_shy_164x256(15fps)_#[164,256]_14
+    21300030: Tree_shy_164x256(15fps)_#[164,256]_15
+    21300032: Tree_shy_164x256(15fps)_#[164,256]_16
+    21300034: Tree_shy_164x256(15fps)_#[164,256]_17
+    21300036: Tree_shy_164x256(15fps)_#[164,256]_18
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -48,7 +67,197 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Tree_shy_164x256(15fps)_#[164,256]_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1024
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_2
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1024
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_3
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1024
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 768
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_6
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 768
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_7
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 768
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_9
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 512
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_10
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 512
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_11
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 512
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_13
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 256
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_14
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 256
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_15
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 256
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_17
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tree_shy_164x256(15fps)_#[164,256]_18
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 164
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

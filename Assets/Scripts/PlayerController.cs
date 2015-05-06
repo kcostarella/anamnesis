@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour {
 	private Animator anim;
 	private AudioSource stepSound;
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		anim = GetComponent<Animator> ();
 		stepSound = GetComponent<AudioSource> ();
 	}

@@ -24,6 +24,7 @@ public class PathFinding : MonoBehaviour {
     private GameObject graphManagerObject;
     private GraphManager graphManager;
 	private Camera gameCam;
+    private PlayerStatus playerStatus;
 	private bool start;
 	private bool isMoveable;
 
@@ -35,6 +36,7 @@ public class PathFinding : MonoBehaviour {
 	// Use this for initialization
 	void Awake() {
 		playerController = player.GetComponent<PlayerController> ();
+        playerStatus = player.GetComponent<PlayerStatus>();
 		graphManagerObject = GameObject.FindGameObjectWithTag("GraphManager");
 		graphManager = graphManagerObject.GetComponent<GraphManager>();
 		gameCam = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Camera> ();
@@ -111,6 +113,7 @@ public class PathFinding : MonoBehaviour {
 		try {
 			path = AStarPath (start.GetComponent<Waypoint> (), goal.GetComponent<Waypoint> ());
 		} catch (KeyNotFoundException e) {
+            Debug.Log(e.Message);
 			path = new List<Waypoint>();
 		}
 		
