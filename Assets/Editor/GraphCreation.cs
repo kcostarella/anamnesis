@@ -6,9 +6,6 @@ using System.Collections;
 public class GraphCreation : Editor {
 
     private static bool graphing = false;
-	private static bool eventType = false;
-	private static float cameraScale = 10;
-	private static int layer = 0;
     private static GameObject gm = null;
     public static ArrayList waypoints;
 

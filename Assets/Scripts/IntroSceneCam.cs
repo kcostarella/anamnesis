@@ -8,9 +8,8 @@ public class IntroSceneCam : MonoBehaviour {
 		gm = GetComponent<GraphManager> ();
 
 		foreach (GameObject w in gm.waypoints) {
-			Debug.Log ("I'M A BITCH");
 			Waypoint wp = w.GetComponent<Waypoint>();
-			wp.setCameraScale (10.0f);
+			wp.setCameraScale (6.0f);
 		}
 	}
 	

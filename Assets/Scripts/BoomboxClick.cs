@@ -4,9 +4,8 @@ using System.Collections;
 public class BoomboxClick : MonoBehaviour {
     
     GameObject player;
-    PlayerStatus playerStatus;
     GameObject partyTree;
-    AudioSource audio;
+    AudioSource audioSource;
     SpriteRenderer woodSprite;
     Animator partyTreeAnim;
     bool woodFadeIn;
@@ -15,19 +14,18 @@ public class BoomboxClick : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         player = GameObject.FindGameObjectWithTag("Player");
-        playerStatus = player.GetComponent<PlayerStatus>();
         partyTree = GameObject.FindGameObjectWithTag("PartyTree");
         partyTreeAnim = partyTree.GetComponent<Animator>();
-        audio = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
         woodSprite = GameObject.FindGameObjectWithTag("Wood2").GetComponent<SpriteRenderer>();
         woodFadeIn = false;
 	}
 	
     void OnMouseDown()
     {
-        if ((partyTree.transform.position - player.transform.position).magnitude < 2.0)
+        if ((partyTree.transform.position - player.transform.position).magnitude < 5.0)
         {
-            audio.mute = true;
+            audioSource.mute = true;
             woodFadeIn = true;
             startTime = Time.time;
             GetComponent<PolygonCollider2D>().enabled = false;

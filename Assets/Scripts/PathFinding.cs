@@ -24,7 +24,6 @@ public class PathFinding : MonoBehaviour {
     private GameObject graphManagerObject;
     private GraphManager graphManager;
 	private Camera gameCam;
-    private PlayerStatus playerStatus;
 	private bool start;
 	private bool isMoveable;
 
@@ -36,7 +35,6 @@ public class PathFinding : MonoBehaviour {
 	// Use this for initialization
 	void Awake() {
 		playerController = player.GetComponent<PlayerController> ();
-        playerStatus = player.GetComponent<PlayerStatus>();
 		graphManagerObject = GameObject.FindGameObjectWithTag("GraphManager");
 		graphManager = graphManagerObject.GetComponent<GraphManager>();
 		gameCam = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Camera> ();
@@ -163,12 +161,6 @@ public class PathFinding : MonoBehaviour {
 			start = false;
 		}
 
-		if (nextDestination.x > player.transform.position.x) {
-			player.transform.eulerAngles = new Vector3 (0.0f,0.0f,0.0f);
-		} else {
-			player.transform.eulerAngles = new Vector3 (0.0f,180.0f,0.0f);
-		}
-
 		Vector3 stepDist3 = Vector3.MoveTowards(player.transform.position, nextDestination, step);
 		stepDist = new Vector2(stepDist3.x, stepDist3.y);
 	}
@@ -177,6 +169,13 @@ public class PathFinding : MonoBehaviour {
 
 		if (moving) {
 			player.transform.position = new Vector3(stepDist.x, stepDist.y, 0.0f);
+
+			Vector3 s = player.transform.localScale;
+			if (nextDestination.x > player.transform.position.x) {
+				player.transform.localScale = new Vector3 (Mathf.Abs(s.x), s.y, s.z);
+			} else if (nextDestination.x < player.transform.position.x) {
+				player.transform.localScale = new Vector3 (Mathf.Abs(s.x) * -1, s.y, s.z);
+			}
 		}
 
 		if (new Vector2 (player.transform.position.x, player.transform.position.y) == new Vector2 (finalDestination.x, finalDestination.y)) {
@@ -202,6 +201,7 @@ public class PathFinding : MonoBehaviour {
 
 			}
 		}
+
 	}
 
     private double manhattanDistance(Vector3 v1, Vector3 v2)

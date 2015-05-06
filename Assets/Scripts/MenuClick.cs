@@ -6,7 +6,6 @@ public class MenuClick : MonoBehaviour {
 	// Use this for initialization
     void OnMouseDown()
     {
-        Debug.Log("Loading shit");
-        Application.LoadLevel(1);
+        Application.LoadLevel(2);
     }
 }
