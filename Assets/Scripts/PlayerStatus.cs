@@ -5,7 +5,7 @@ public class PlayerStatus : MonoBehaviour {
 
     public bool shyTreeActive;
     public bool moving;
-    int numWood;
+    public int numWood;
 
     void Awake()
     {

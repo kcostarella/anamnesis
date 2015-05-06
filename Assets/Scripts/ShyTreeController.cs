@@ -19,7 +19,7 @@ public class ShyTreeController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log((gameObject.transform.position - player.transform.position).magnitude);
+        //Debug.Log((gameObject.transform.position - player.transform.position).magnitude);
         if (playerStatus.shyTreeActive)
         {
             bool moving = playerController.getAnimationBoolState("Moving");
