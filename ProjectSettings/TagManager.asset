@@ -11,6 +11,9 @@ TagManager:
   - Fire
   - ShyTree
   - Wood1
+  - PartyTree
+  - Wood2
+  - Wood3
   layers:
   - Default
   - TransparentFX
