@@ -5,11 +5,12 @@ public class ShyTreeTrigger : MonoBehaviour {
 
     GameObject player;
     PlayerStatus playerStatus;
-
+	Animator treeAnim;
 	// Use this for initialization
 	void Start () {
         player = GameObject.FindGameObjectWithTag("Player");
         playerStatus = player.GetComponent<PlayerStatus>();
+		treeAnim = GameObject.FindGameObjectWithTag ("ShyTree").GetComponent<Animator> ();
 	}
 	
 	// Update is called once per frame
@@ -17,9 +18,10 @@ public class ShyTreeTrigger : MonoBehaviour {
         Vector3 dis = (gameObject.transform.position - player.transform.position);
         //Debug.Log(dis.magnitude);
 
-        if ((dis.x < 0 && dis.x > -0.5) && dis.magnitude < 1)
+        if (dis.magnitude < 1)
         {
             playerStatus.shyTreeActive = true;
+			treeAnim.SetBool ("Locked", false);
         }
 
 	}

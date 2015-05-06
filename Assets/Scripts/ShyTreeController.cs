@@ -37,8 +37,8 @@ public class ShyTreeController : MonoBehaviour {
 
         if (Physics2D.Linecast(gameObject.transform.position, player.transform.position))
         {
-            anim.SetBool("Locked", false);
-        }
+           anim.SetBool("Locked", false);
+       	}
 	}
 
     void LockDown()

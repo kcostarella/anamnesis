@@ -6,7 +6,7 @@ public class playerTracker : MonoBehaviour {
 	public float mapx;
 	public float mapy;
 
-	public PathFinding pathFinding;
+	private PathFinding pathFinding;
 	private Camera cam;
 	private Vector3 scaleVelocity;
 	private float cameraScaleTime;

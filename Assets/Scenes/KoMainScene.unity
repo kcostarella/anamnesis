@@ -1847,6 +1847,48 @@ MonoBehaviour:
   eventTrigger: {fileID: 0}
   cameraScale: 0
   layer: 0
+--- !u!1001 &442397818
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 430778, guid: 47abbd95f05cf234089a0bba1bda73d1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.69700003
+      objectReference: {fileID: 0}
+    - target: {fileID: 430778, guid: 47abbd95f05cf234089a0bba1bda73d1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -15.8769999
+      objectReference: {fileID: 0}
+    - target: {fileID: 430778, guid: 47abbd95f05cf234089a0bba1bda73d1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430778, guid: 47abbd95f05cf234089a0bba1bda73d1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430778, guid: 47abbd95f05cf234089a0bba1bda73d1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430778, guid: 47abbd95f05cf234089a0bba1bda73d1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .282092124
+      objectReference: {fileID: 0}
+    - target: {fileID: 430778, guid: 47abbd95f05cf234089a0bba1bda73d1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .959387362
+      objectReference: {fileID: 0}
+    - target: {fileID: 430778, guid: 47abbd95f05cf234089a0bba1bda73d1, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 47abbd95f05cf234089a0bba1bda73d1, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &449855206
 GameObject:
   m_ObjectHideFlags: 0
@@ -2410,7 +2452,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 691448049}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 030ab80ecd4f54bb6a5abcd6c8dad114, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c8b39722a2a77d499afbf267880c9e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fireController: {fileID: 363647432}
@@ -4521,7 +4563,6 @@ MonoBehaviour:
   playerTransform: {fileID: 1451182861}
   mapx: 51
   mapy: 40.5200005
-  pathFinding: {fileID: 0}
 --- !u!1 &1467418851
 GameObject:
   m_ObjectHideFlags: 0
@@ -5420,6 +5461,48 @@ MonoBehaviour:
   eventTrigger: {fileID: 0}
   cameraScale: 0
   layer: 20
+--- !u!1001 &1834875878
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 489852, guid: 64c2096b89cca73458b503b233853ef7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.50999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 489852, guid: 64c2096b89cca73458b503b233853ef7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -14.8699999
+      objectReference: {fileID: 0}
+    - target: {fileID: 489852, guid: 64c2096b89cca73458b503b233853ef7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 489852, guid: 64c2096b89cca73458b503b233853ef7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 489852, guid: 64c2096b89cca73458b503b233853ef7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 489852, guid: 64c2096b89cca73458b503b233853ef7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 489852, guid: 64c2096b89cca73458b503b233853ef7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489852, guid: 64c2096b89cca73458b503b233853ef7, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 64c2096b89cca73458b503b233853ef7, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1845566535 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 170200, guid: 2d026aababab44255b13cc234ca35f56, type: 2}
@@ -5449,7 +5532,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1845566535}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3062e5e7d80ea4cfcb6af93e666a2919, type: 3}
+  m_Script: {fileID: 11500000, guid: 2059e5cc83eeaaf4fa6640b6f4763569, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1849527642
@@ -5629,8 +5712,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 1874179100}
   - 114: {fileID: 1874179101}
+  - 114: {fileID: 1874179102}
   m_Layer: 0
-  m_Name: Waypoint28
+  m_Name: ShyTreeTrigger
   m_TagString: Waypoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5662,6 +5746,17 @@ MonoBehaviour:
   eventTrigger: {fileID: 0}
   cameraScale: 0
   layer: 20
+--- !u!114 &1874179102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1874179099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a007ce650abc5b4d8ef44c291bac679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1876680975
 GameObject:
   m_ObjectHideFlags: 0
@@ -6089,8 +6184,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 2086567646}
   - 114: {fileID: 2086567647}
+  - 114: {fileID: 2086567648}
   m_Layer: 0
-  m_Name: Waypoint21
+  m_Name: ShyTreeTriggerOff
   m_TagString: Waypoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6122,6 +6218,17 @@ MonoBehaviour:
   eventTrigger: {fileID: 0}
   cameraScale: 10
   layer: 20
+--- !u!114 &2086567648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2086567645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd8d314843f324b04addad48e430e26f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2094915772
 GameObject:
   m_ObjectHideFlags: 0

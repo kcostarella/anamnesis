@@ -24,7 +24,7 @@ public class EventController : MonoBehaviour {
 	}
 
 	public void StartEvent(string name) {
-		if (name == "FireOut" && !fireOutEventPlayed) {
+		if (name == "FireOut" && !fireOutEventPlayed) { 
 			StartCoroutine (FireOut());
 			fireOutEventPlayed = true;
 		}

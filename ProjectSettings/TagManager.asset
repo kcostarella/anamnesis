@@ -9,6 +9,8 @@ TagManager:
   - StartWaypoint
   - Path
   - Fire
+  - ShyTree
+  - Wood1
   layers:
   - Default
   - TransparentFX
