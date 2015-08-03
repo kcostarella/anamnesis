@@ -5277,7 +5277,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 412984, guid: 745d8837658f24315893fd030e010d63, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11416890, guid: 745d8837658f24315893fd030e010d63, type: 2}
       propertyPath: player
@@ -5286,6 +5286,14 @@ Prefab:
     - target: {fileID: 169524, guid: 745d8837658f24315893fd030e010d63, type: 2}
       propertyPath: m_TagString
       value: Path
+      objectReference: {fileID: 0}
+    - target: {fileID: 485156, guid: 745d8837658f24315893fd030e010d63, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 460840, guid: 745d8837658f24315893fd030e010d63, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 745d8837658f24315893fd030e010d63, type: 2}
@@ -7790,9 +7798,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: .468389511, y: .869867325}
+  m_Offset: {x: .109999999, y: .200000003}
   serializedVersion: 2
-  m_Size: {x: 7.512784, y: 7.94061661}
+  m_Size: {x: 1.91999996, y: 2.50999999}
 --- !u!114 &1499734613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7858,7 +7866,7 @@ Transform:
   m_GameObject: {fileID: 1499734611}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.94000006, y: 2.20000005, z: 0}
-  m_LocalScale: {x: .25, y: .25, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 25

@@ -17,12 +17,21 @@ public class GraphCreation : Editor {
         if (graphing == true)
         {
             if (gm == null)
+            {
                 gm = GameObject.FindGameObjectWithTag("GraphManager");
+                if (gm == null)
+                {
+                    Debug.Log("Creating new graph manager");
+                    GameObject tmp = Resources.LoadAssetAtPath("Assets/Prefabs/GraphManager.prefab", typeof(GameObject)) as GameObject;
+                    gm = Instantiate(tmp) as GameObject;
+                }
+            }
+
             if (gm != null)
             {
                 Selection.activeObject = gm;
-                //waypoints = gm.GetComponent<GraphManager>().waypoints;
             }
+            
         }
         Debug.Log("Graphing state: " + graphing);
     }
@@ -30,11 +39,11 @@ public class GraphCreation : Editor {
     [MenuItem("Graphing Tools/Clear Waypoints")]
     private static void ClearWaypoints()
     {
-		GraphManager manager = GameObject.FindGameObjectWithTag ("GraphManager").GetComponent<GraphManager> ();
+		GraphManager manager = gm.GetComponent<GraphManager>();
 
         foreach (GameObject g in manager.waypoints)
         {
-            DestroyImmediate(g);
+            Destroy(g);
         }
         gm.GetComponent<GraphManager>().waypoints.Clear();
     }
@@ -56,7 +65,7 @@ public class GraphCreation : Editor {
                     waypointInstance.name = "Waypoint" + (manager.waypoints.Count + 1);
                     waypointInstance.transform.position = new Vector3(ray.origin.x, ray.origin.y);
                     waypointInstance.transform.parent = gm.transform;
-
+                    Undo.RegisterCreatedObjectUndo(waypointInstance, "Created " + waypointInstance.name);
                     manager.waypoints.Add(waypointInstance);
 
                     foreach (GameObject wp in manager.waypoints)
@@ -69,9 +78,15 @@ public class GraphCreation : Editor {
                                 Waypoint oldNode = wp.GetComponent<Waypoint>();
                                 oldNode.adjs.Add(waypointInstance, true);
                                 instNode.adjs.Add(wp, true);
+                                EditorUtility.SetDirty(instNode);
+                                EditorUtility.SetDirty(oldNode);
+                                EditorUtility.SetDirty(wp);
                             }
                         }
                     }
+                    EditorUtility.SetDirty(waypointInstance);
+
+                    EditorUtility.SetDirty(manager);
                 }
             }
             Selection.activeObject = gm;
@@ -86,7 +101,10 @@ public class GraphCreation : Editor {
 
         foreach (GameObject point in manager.waypoints)
         {
-            EditorGUILayout.LabelField("Point", point.name);
+            if (point != null)
+            {
+                EditorGUILayout.LabelField("Point", point.name);
+            }
         }
     }
 

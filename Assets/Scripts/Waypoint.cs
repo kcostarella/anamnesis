@@ -67,7 +67,10 @@ public class Waypoint : MonoBehaviour {
         {
             foreach (GameObject point in adjs.Keys)
             {
-                Gizmos.DrawLine(pos, point.transform.position);
+                if (point != null)
+                {
+                    Gizmos.DrawLine(pos, point.transform.position);
+                }
             }
         }
     }

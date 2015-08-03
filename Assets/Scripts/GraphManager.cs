@@ -33,37 +33,4 @@ public class GraphManager : MonoBehaviour {
             }
         }
     }
-
-    public void removeNode(GameObject waypointObject)
-    {
-        Waypoint waypoint = waypointObject.GetComponent<Waypoint>();
-        bool removed = false;
-        int count = 0;
-        foreach (GameObject point in waypoint.adjs.Keys)
-        {
-            Waypoint adj = point.GetComponent<Waypoint>();
-            bool removal = adj.adjs.Remove(waypointObject);
-            if (count == 0)
-            {
-                removed = removal;
-            }
-            else
-            {
-                removed &= removal;
-            }
-            
-        }
-        waypoints.Remove(waypointObject);
-        if (removed)
-        {
-            Destroy(waypointObject);
-        }
-        
-    }
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
-    
 }
